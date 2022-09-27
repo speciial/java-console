@@ -1,6 +1,7 @@
 package ui;
 
 import javafx.application.Application;
+import javafx.application.Platform;
 import javafx.scene.Scene;
 import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
@@ -20,6 +21,10 @@ public class TerminalLauncher extends Application {
         new Thread(() -> Application.launch(TerminalLauncher.class, args)).start();
 
         return eventQueue;
+    }
+
+    public static void destroyWindow() {
+        Platform.exit();
     }
 
     @Override
