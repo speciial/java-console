@@ -2,13 +2,13 @@ package ui;
 
 import javafx.scene.control.TextArea;
 import javafx.scene.input.KeyEvent;
+import ui.event.EventType;
+import ui.event.TerminalEvent;
 
 import java.util.ArrayList;
 import java.util.concurrent.BlockingQueue;
 
-public class CustomTerminal extends TextArea {
-
-    private final BlockingQueue<String> eventQueue;
+public class CustomTerminalComponent extends TextArea {
 
     private int lastValidCaretPosition = 0;
 
@@ -16,9 +16,7 @@ public class CustomTerminal extends TextArea {
     private final ArrayList<String> inputBuffer = new ArrayList<>();
     private int bufferPosition = 0;
 
-    public CustomTerminal(BlockingQueue<String> eventQueue) {
-        this.eventQueue = eventQueue;
-
+    public CustomTerminalComponent() {
         newPromptLine();
 
         this.addEventHandler(KeyEvent.KEY_PRESSED, event -> {
@@ -33,7 +31,8 @@ public class CustomTerminal extends TextArea {
 
                     try {
                         // TODO: CLEANUP!!
-                        this.eventQueue.put(currentLine);
+                        TerminalContext.in.write(currentLine);
+                        TerminalContext.eventQueue.put(new TerminalEvent(EventType.NEW_LINE, currentLine));
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     }
@@ -65,6 +64,15 @@ public class CustomTerminal extends TextArea {
 
                     event.consume();
                 }
+                case F4 -> {
+                    if (event.isAltDown()) {
+                        try {
+                            TerminalContext.eventQueue.put(new TerminalEvent(EventType.WINDOW_CLOSE, null));
+                        } catch (InterruptedException e) {
+                            e.printStackTrace();
+                        }
+                    }
+                }
             }
         });
 
@@ -77,7 +85,6 @@ public class CustomTerminal extends TextArea {
 
     public void println(String line) {
         this.getContent().insert(getLength(), "\n" + line, true);
-        newPromptLine();
     }
 
     private void newPromptLine() {

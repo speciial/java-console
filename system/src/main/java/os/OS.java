@@ -1,8 +1,12 @@
 package os;
 
-import ui.TerminalLauncher;
+import ui.TerminalApplication;
+import ui.TerminalContext;
+import ui.event.EventType;
+import ui.event.TerminalEvent;
 
-import java.util.concurrent.BlockingQueue;
+import java.util.Scanner;
+import java.util.concurrent.CompletableFuture;
 
 public class OS {
 
@@ -15,18 +19,29 @@ public class OS {
      */
 
     public static void main(String[] args) {
-        BlockingQueue<String> eventQueue = TerminalLauncher.launchWindow(args);
+        // BOOT THE OS
+
+        // LOAD THE WINDOW
+        TerminalApplication.showTerminal();
 
         boolean running = true;
 
+        // RUN THE APPLICATION
         try {
-            // TODO: CLEANUP!!
             while (running) {
-                String line = eventQueue.take();
+                // WAIT FOR A NEW EVENT
+                TerminalEvent event = TerminalContext.eventQueue.take();
 
-                System.out.println(Thread.currentThread().getName() + " > " + line);
+                // PROCESS THE EVENT
+                System.out.println(Thread.currentThread().getName() + " > " + event.getContent());
 
-                if(line.equals("kill")) {
+                if(event.getEventType().equals(EventType.NEW_LINE)){
+                    TerminalContext.out.println(event.getContent());
+
+                    String someNewLine = TerminalContext.in.nextLine();
+                    TerminalContext.out.println(someNewLine);
+                }
+                if(event.getEventType().equals(EventType.WINDOW_CLOSE)) {
                     running = false;
                 }
             }
@@ -34,7 +49,8 @@ public class OS {
             e.printStackTrace();
         }
 
-        TerminalLauncher.destroyWindow();
+        // END THE APPLICATION AND DESTROY THE WINDOW
+        TerminalApplication.destroyWindow();
     }
 
 }
