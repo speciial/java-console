@@ -1,41 +1,59 @@
 package ui;
 
 import javafx.application.Application;
-import javafx.application.Platform;
 import javafx.scene.Scene;
 import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
-import ui.event.EventType;
-import ui.event.TerminalEvent;
 
-public class TerminalApplication extends Application {
+import java.util.concurrent.BlockingQueue;
 
-    public static void showTerminal() {
-        TerminalContext.init();
-        new Thread(() -> Application.launch(TerminalApplication.class)).start();
+public class TerminalApplication extends Application implements Runnable{
+
+    /*
+        TODO:
+            - [ ] Work out how other window events should be handled
+                - [ ] Add example events -> WINDOW_CLOSE, WINDOW_RESIZE(?), TAB, keyboard shortcuts, ...
+            - [ ] Handle shutdown of all threads correctly
+            - [ ] Figure out how to expose the input and output streams (and possibly the event system)
+                - [ ] Maybe create the event queue in the ui code
+            - [ ] Handle new lines correctly! (With and without directory prompt)
+                - [ ] Synchronize the output stream (?)
+            - [ ] Properly separate into system and ui
+            - [ ] Write comments explaining the code
+            - [ ] Figure out what a nestedEventLoop is!
+     */
+
+    public static void configure(BlockingQueue<TerminalEvent> event, TerminalInputStream in, TerminalOutputStream out) {
+        Terminal.setEventQueue(event);
+        Terminal.setIn(in);
+        Terminal.setOut(out);
     }
 
-    public static void destroyWindow() {
-        Platform.exit();
+    // It is not strictly necessary to use a Runnable here and start the JFX application through a new thread since the
+    // application is starting a separate ui thread anyway. This is purely for consistency and clear separation between
+    // os and terminal.
+    @Override
+    public void run() {
+        System.out.println("Starting UI Thread...");
+        Application.launch();
+    }
+
+    @Override
+    public void stop() {
+        Terminal.commitEvent(new TerminalEvent(TerminalEventType.WINDOW_CLOSE, null));
     }
 
     @Override
     public void start(Stage stage) {
-        CustomTerminalComponent terminal = new CustomTerminalComponent();
-        TerminalContext.configureIO(terminal);
+        CustomTerminalComponent terminalComponent = new CustomTerminalComponent();
+        Terminal.setTerminalComponent(terminalComponent);
 
         StackPane root = new StackPane();
-        root.getChildren().add(terminal);
+        root.getChildren().add(terminalComponent);
 
         Scene scene = new Scene(root, 320, 240);
         stage.setTitle("Hello!");
         stage.setScene(scene);
         stage.show();
-    }
-
-    @Override
-    public void stop() throws Exception {
-        super.stop();
-        TerminalContext.eventQueue.put(new TerminalEvent(EventType.WINDOW_CLOSE, null));
     }
 }
