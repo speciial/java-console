@@ -32,8 +32,6 @@ public class TerminalInputStream {
     // This should only wait when called from the main thread! I need to check how that would work.
     // Once done, this should lock again
     public String readLine() {
-        // TODO: check if this is called from the ui thread
-
         String line = null;
 
         lock.lock();

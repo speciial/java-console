@@ -38,8 +38,6 @@ public class Terminal {
     // =================================================================================================================
     // STUFF THAT WILL BE MOVED LATER ON
 
-    // TODO: perhaps we should make the event queue visible for the entire ui package and not use this function to add
-    //       events to the queue.
     protected static void commitEvent(TerminalEvent event) {
         eventQueue.add(event);
     }

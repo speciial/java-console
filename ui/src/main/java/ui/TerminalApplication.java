@@ -9,20 +9,6 @@ import java.util.concurrent.BlockingQueue;
 
 public class TerminalApplication extends Application implements Runnable{
 
-    /*
-        TODO:
-            - [ ] Work out how other window events should be handled
-                - [ ] Add example events -> WINDOW_CLOSE, WINDOW_RESIZE(?), TAB, keyboard shortcuts, ...
-            - [ ] Handle shutdown of all threads correctly
-            - [ ] Figure out how to expose the input and output streams (and possibly the event system)
-                - [ ] Maybe create the event queue in the ui code
-            - [ ] Handle new lines correctly! (With and without directory prompt)
-                - [ ] Synchronize the output stream (?)
-            - [ ] Properly separate into system and ui
-            - [ ] Write comments explaining the code
-            - [ ] Figure out what a nestedEventLoop is!
-     */
-
     public static void configure(BlockingQueue<TerminalEvent> event, TerminalInputStream in, TerminalOutputStream out) {
         Terminal.setEventQueue(event);
         Terminal.setIn(in);

@@ -14,6 +14,9 @@ public class CustomTerminalComponent extends TextArea {
     private int bufferPosition = 0;
 
     public CustomTerminalComponent() {
+        // disable horizontal scrolling
+        this.setWrapText(true);
+
         this.addEventHandler(KeyEvent.KEY_PRESSED, event -> {
             switch (event.getCode()) {
                 case ENTER -> {
@@ -25,10 +28,6 @@ public class CustomTerminalComponent extends TextArea {
                     Terminal.commitEvent(new TerminalEvent(TerminalEventType.NEW_LINE, null));
                     Terminal.in.writeLine(currentLine);
 
-                    // TODO: this should use the output stream as well since that is going to be synchronized!
-                    // TODO: disable horizontal scrolling (enable line wrap)
-
-                    // NEW LINE
                     event.consume();
                 }
                 case BACK_SPACE -> {
@@ -71,8 +70,6 @@ public class CustomTerminalComponent extends TextArea {
         });
     }
 
-    // TODO: add something like "applyTheme" with different parameters so people can style their terminal the way they
-    //       want.
     public void setColor() {
         this.setStyle("-fx-background-color: #ff00ff; -fx-control-inner-background: #ff00ff");
     }
@@ -125,7 +122,6 @@ public class CustomTerminalComponent extends TextArea {
     private int findFirstIndexOfCurrentWord(char[] chars, int currentCaretIndex) {
         int whiteSpaceIndex = 0;
 
-        // TODO: make this iterate backwards through the array
         for (int charIndex = 0; charIndex < chars.length; charIndex++) {
             if(chars[charIndex] == ' ' && charIndex < currentCaretIndex) {
                 whiteSpaceIndex = (charIndex + 1);
