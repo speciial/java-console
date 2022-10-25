@@ -32,7 +32,9 @@ public class TerminalApplication extends Application implements Runnable{
     @Override
     public void start(Stage stage) {
         CustomTerminalComponent terminalComponent = new CustomTerminalComponent();
+
         Terminal.setTerminalComponent(terminalComponent);
+        Terminal.commitEvent(new TerminalEvent(TerminalEventType.STARTUP, null));
 
         StackPane root = new StackPane();
         root.getChildren().add(terminalComponent);

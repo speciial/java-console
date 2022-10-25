@@ -6,6 +6,8 @@ import java.util.concurrent.LinkedBlockingQueue;
 
 public class OS implements Runnable {
 
+    public static final FileSystem FS = new FileSystem();
+
     String[] completableStrings = new String[]{
             "hello",
             "help",
@@ -32,23 +34,42 @@ public class OS implements Runnable {
             try {
                 TerminalEvent event = Terminal.takeEvent();
                 switch (event.type) {
+                    case STARTUP -> {
+                        Terminal.flushEventQueue();
+                        Terminal.out.println(FS.getDirectoryString() + " >");
+                    }
                     case NEW_LINE -> {
-                        System.out.println("Waiting for input...");
                         String line = Terminal.in.readLine();
+                        String[] tokens = line.split("\\s+|\\t+");
 
-                        if (line.equals("hello")) {
-                            String newLine = Terminal.in.readLine();
-                            Terminal.out.println("fk u");
-                            Terminal.out.println(newLine);
+                        if (tokens.length > 0) {
+                            switch (tokens[0].toLowerCase()) {
+                                case "cd" -> {
+                                    Terminal.out.println("CD COMMAND");
+                                    if(tokens.length > 1) {
+                                        CommandHandler.handleCD(tokens[1]);
+                                    }
+                                }
+                                case "ls" -> {
+                                    Terminal.out.println("LS COMMAND");
+                                    CommandHandler.handleLS();
+                                }
+                                case "convo" -> {
+                                    Terminal.out.println("CONVO COMMAND");
+                                    CommandHandler.handleCONVO();
+                                }
+                                case "exit" -> {
+                                    Terminal.out.println("EXIT COMMAND");
+                                    running = false;
+                                }
+                            }
                         }
-
-                        System.out.println("Output: " + line);
-                        Terminal.out.println(line);
 
                         // This is a fix to clear all newly generated new_line events during the life cycle of a
                         // command. In the future we may want to only clear the new_lines because commands might
                         // generate new events.
                         Terminal.flushEventQueue();
+                        Terminal.out.println(FS.getDirectoryString() + " >");
                     }
                     case KEY_TAB -> {
                         String match = findAutoCompleteMatch(event.content);
