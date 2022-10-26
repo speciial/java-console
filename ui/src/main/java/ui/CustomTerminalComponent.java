@@ -25,8 +25,9 @@ public class CustomTerminalComponent extends TextArea {
                     addLineToBuffer(currentLine);
 
                     // DO THE WORK HERE!!
-                    Terminal.commitEvent(new TerminalEvent(TerminalEventType.NEW_LINE, null));
+                    Terminal.out.println("");
                     Terminal.in.writeLine(currentLine);
+                    Terminal.commitEvent(new TerminalEvent(TerminalEventType.NEW_LINE, null));
 
                     event.consume();
                 }
@@ -95,13 +96,12 @@ public class CustomTerminalComponent extends TextArea {
         positionCaret(this.getContent().length());
     }
 
-    public void println(String line) {
-        String lineWithNewLine = "\n" + line + "\n";
+    public void print(String line) {
         int currentContentLength = getContent().length();
 
-        this.getContent().insert(currentContentLength, lineWithNewLine, true);
+        this.getContent().insert(currentContentLength, line, true);
 
-        int newCaretPosition = currentContentLength + lineWithNewLine.length();
+        int newCaretPosition = currentContentLength + line.length();
         this.selectRange(newCaretPosition, newCaretPosition);
 
         lastValidCaretPosition = newCaretPosition;

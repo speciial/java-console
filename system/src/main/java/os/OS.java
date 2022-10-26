@@ -20,7 +20,7 @@ public class OS implements Runnable {
                 switch (event.type) {
                     case STARTUP -> {
                         Terminal.flushEventQueue();
-                        Terminal.out.println(FS.getDirectoryString() + " >");
+                        Terminal.out.print(FS.getDirectoryString() + " >");
                     }
                     case NEW_LINE -> {
                         String line = Terminal.in.readLine();
@@ -53,7 +53,7 @@ public class OS implements Runnable {
                         // command. In the future we may want to only clear the new_lines because commands might
                         // generate new events.
                         Terminal.flushEventQueue();
-                        Terminal.out.println(FS.getDirectoryString() + " >");
+                        Terminal.out.print("\n" + FS.getDirectoryString() + " >");
                     }
                     case KEY_TAB -> {
                         List<String> match = FS.findAutoCompleteMatch(event.content);
