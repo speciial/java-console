@@ -11,8 +11,6 @@ public class OS implements Runnable {
 
     @Override
     public void run() {
-        System.out.println("Starting Main Thread...");
-
         boolean running = true;
         do {
             try {

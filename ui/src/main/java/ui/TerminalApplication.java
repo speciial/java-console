@@ -25,7 +25,6 @@ public class TerminalApplication extends Application implements Runnable{
     // os and terminal.
     @Override
     public void run() {
-        System.out.println("Starting UI Thread...");
         Application.launch();
     }
 

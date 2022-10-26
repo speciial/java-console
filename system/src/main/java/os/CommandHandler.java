@@ -1,5 +1,6 @@
 package os;
 
+import com.github.javafaker.Faker;
 import ui.Terminal;
 
 public class CommandHandler {
@@ -15,7 +16,18 @@ public class CommandHandler {
     }
 
     public static void handleCONVO() {
+        Terminal.out.println("> Hey, my name is Peter, I'm the hsOS assistent.");
+        Terminal.out.println("> How can I help you?");
 
+        Faker faker = new Faker();
+        String inputLine = Terminal.in.readLine();
+        while (!inputLine.equals("stop")) {
+            Terminal.out.println("> " + faker.yoda().quote());
+
+            inputLine = Terminal.in.readLine();
+        }
+
+        Terminal.out.println("> Have a good day!");
     }
 
 }
