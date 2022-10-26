@@ -3,7 +3,7 @@ package ui;
 public enum TerminalEventType {
 
     // General Events
-    NOOP,
+    STARTUP,
     NEW_LINE,
 
     // Window Events

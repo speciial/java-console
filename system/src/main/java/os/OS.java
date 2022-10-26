@@ -2,58 +2,62 @@ package os;
 
 import ui.*;
 
+import java.util.List;
 import java.util.concurrent.LinkedBlockingQueue;
 
 public class OS implements Runnable {
 
-    String[] completableStrings = new String[]{
-            "hello",
-            "help",
-            "c:/dev/code"
-    };
-
-    private String findAutoCompleteMatch(String toComplete) {
-        String result = null;
-        for (String item : completableStrings) {
-            if (item.startsWith(toComplete)) {
-                result = item;
-                break;
-            }
-        }
-        return result;
-    }
+    public static final FileSystem FS = new FileSystem();
 
     @Override
     public void run() {
-        System.out.println("Starting Main Thread...");
-
         boolean running = true;
         do {
             try {
                 TerminalEvent event = Terminal.takeEvent();
                 switch (event.type) {
+                    case STARTUP -> {
+                        Terminal.flushEventQueue();
+                        Terminal.out.print(FS.getDirectoryString() + " >");
+                    }
                     case NEW_LINE -> {
-                        System.out.println("Waiting for input...");
                         String line = Terminal.in.readLine();
+                        String[] tokens = line.split("\\s+|\\t+");
 
-                        if (line.equals("hello")) {
-                            String newLine = Terminal.in.readLine();
-                            Terminal.out.println("fk u");
-                            Terminal.out.println(newLine);
+                        if (tokens.length > 0) {
+                            switch (tokens[0].toLowerCase()) {
+                                case "cd" -> {
+                                    Terminal.out.println("CD COMMAND");
+                                    if(tokens.length > 1) {
+                                        CommandHandler.handleCD(tokens[1]);
+                                    }
+                                }
+                                case "ls" -> {
+                                    Terminal.out.println("LS COMMAND");
+                                    CommandHandler.handleLS();
+                                }
+                                case "convo" -> {
+                                    Terminal.out.println("CONVO COMMAND");
+                                    CommandHandler.handleCONVO();
+                                }
+                                case "exit" -> {
+                                    Terminal.out.println("EXIT COMMAND");
+                                    TerminalApplication.terminate();
+                                    running = false;
+                                }
+                            }
                         }
-
-                        System.out.println("Output: " + line);
-                        Terminal.out.println(line);
 
                         // This is a fix to clear all newly generated new_line events during the life cycle of a
                         // command. In the future we may want to only clear the new_lines because commands might
                         // generate new events.
                         Terminal.flushEventQueue();
+                        Terminal.out.print("\n" + FS.getDirectoryString() + " >");
                     }
                     case KEY_TAB -> {
-                        String match = findAutoCompleteMatch(event.content);
-                        if (match != null) {
-                            Terminal.setAutoCompleteString(match);
+                        List<String> match = FS.findAutoCompleteMatch(event.content);
+                        if (!match.isEmpty()) {
+                            Terminal.setAutoCompleteString(match.get(0));
                         }
                     }
                     case WINDOW_CLOSE, KEY_ESC -> running = false;

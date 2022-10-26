@@ -1,6 +1,7 @@
 package ui;
 
 import javafx.application.Application;
+import javafx.application.Platform;
 import javafx.scene.Scene;
 import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
@@ -15,12 +16,15 @@ public class TerminalApplication extends Application implements Runnable{
         Terminal.setOut(out);
     }
 
+    public static void terminate() {
+        Platform.exit();
+    }
+
     // It is not strictly necessary to use a Runnable here and start the JFX application through a new thread since the
     // application is starting a separate ui thread anyway. This is purely for consistency and clear separation between
     // os and terminal.
     @Override
     public void run() {
-        System.out.println("Starting UI Thread...");
         Application.launch();
     }
 
@@ -32,7 +36,9 @@ public class TerminalApplication extends Application implements Runnable{
     @Override
     public void start(Stage stage) {
         CustomTerminalComponent terminalComponent = new CustomTerminalComponent();
+
         Terminal.setTerminalComponent(terminalComponent);
+        Terminal.commitEvent(new TerminalEvent(TerminalEventType.STARTUP, null));
 
         StackPane root = new StackPane();
         root.getChildren().add(terminalComponent);

@@ -7,8 +7,12 @@ public class TerminalOutputStream {
     // I'm not super sure about this but I think that I should synchronize the output stream as well as the input
     // stream. I suspect that the new line handling might get weird if the ui thread gets to put stuff directly into
     // the terminal.
+    public void print(String line) {
+        terminalComponent.print(line);
+    }
+
     public void println(String line) {
-        terminalComponent.println(line);
+        terminalComponent.print(line + "\n");
     }
 
     protected void setOutputComponent(CustomTerminalComponent terminalComponent) {
