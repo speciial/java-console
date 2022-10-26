@@ -7,10 +7,13 @@ import java.util.List;
 
 public class FileSystem {
 
+    private OSFile root;
+
     private OSFile currentWorkingDirectory;
 
     public FileSystem() {
-        currentWorkingDirectory = new OSFile("home", null, true, null);
+        root = new OSFile("home", null, true, null);
+        currentWorkingDirectory = root;
 
         currentWorkingDirectory.children.add(new OSFile("Docs", null, true, currentWorkingDirectory));
         currentWorkingDirectory.children.add(new OSFile("Imgs", null, true, currentWorkingDirectory));
@@ -51,6 +54,17 @@ public class FileSystem {
         List<String> directoryContent = new LinkedList<>();
         currentWorkingDirectory.children.forEach(osFile -> directoryContent.add(osFile.name));
         return directoryContent;
+    }
+
+    public List<String> findAutoCompleteMatch(String toComplete) {
+        // NOTE: this is not a full implementation and just meant for testing!
+        List<String> result = new LinkedList<>();
+        currentWorkingDirectory.children.forEach(item -> {
+            if(item.name.startsWith(toComplete)) {
+                result.add(item.name);
+            }
+        });
+        return result;
     }
 
 }

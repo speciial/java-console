@@ -2,28 +2,12 @@ package os;
 
 import ui.*;
 
+import java.util.List;
 import java.util.concurrent.LinkedBlockingQueue;
 
 public class OS implements Runnable {
 
     public static final FileSystem FS = new FileSystem();
-
-    String[] completableStrings = new String[]{
-            "hello",
-            "help",
-            "c:/dev/code"
-    };
-
-    private String findAutoCompleteMatch(String toComplete) {
-        String result = null;
-        for (String item : completableStrings) {
-            if (item.startsWith(toComplete)) {
-                result = item;
-                break;
-            }
-        }
-        return result;
-    }
 
     @Override
     public void run() {
@@ -72,9 +56,9 @@ public class OS implements Runnable {
                         Terminal.out.println(FS.getDirectoryString() + " >");
                     }
                     case KEY_TAB -> {
-                        String match = findAutoCompleteMatch(event.content);
-                        if (match != null) {
-                            Terminal.setAutoCompleteString(match);
+                        List<String> match = FS.findAutoCompleteMatch(event.content);
+                        if (!match.isEmpty()) {
+                            Terminal.setAutoCompleteString(match.get(0));
                         }
                     }
                     case WINDOW_CLOSE, KEY_ESC -> running = false;
