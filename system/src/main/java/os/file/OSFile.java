@@ -19,6 +19,7 @@ public class OSFile {
         this.name = name;
         this.content = content;
         this.isDirectory = isDirectory;
+        this.parent = parent;
 
         if(isDirectory) {
             children = new LinkedList<>();

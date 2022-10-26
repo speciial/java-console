@@ -1,6 +1,7 @@
 package ui;
 
 import javafx.application.Application;
+import javafx.application.Platform;
 import javafx.scene.Scene;
 import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
@@ -13,6 +14,10 @@ public class TerminalApplication extends Application implements Runnable{
         Terminal.setEventQueue(event);
         Terminal.setIn(in);
         Terminal.setOut(out);
+    }
+
+    public static void terminate() {
+        Platform.exit();
     }
 
     // It is not strictly necessary to use a Runnable here and start the JFX application through a new thread since the

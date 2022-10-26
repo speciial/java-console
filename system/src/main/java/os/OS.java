@@ -44,6 +44,7 @@ public class OS implements Runnable {
                                 }
                                 case "exit" -> {
                                     Terminal.out.println("EXIT COMMAND");
+                                    TerminalApplication.terminate();
                                     running = false;
                                 }
                             }
