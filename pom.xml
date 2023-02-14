@@ -11,6 +11,7 @@
     <modules>
         <module>system</module>
         <module>ui</module>
+        <module>scratch</module>
     </modules>
 
     <properties>
