@@ -1,5 +1,66 @@
-.text-component {
-    -fx-content-background: rgba(255, 0, 0, 1);
+.root {
+    /* CSS Look-Up Colors */
+    -fx-hs-container-background: rgba(80, 80, 80, 1);
+    -fx-hs-content-background: rgba(160, 160, 160, 1);
+    -fx-hs-font-color: rgba(30, 30, 30, 1);
+
+    /* Root Container Styling */
+    -fx-background-color: -fx-hs-container-background;
 }
 
-.text-component
+/* |--------------------| */
+/* | TERMINAL COMPONENT | */
+/* |--------------------| */
+.terminal-component {
+    -fx-background-color: transparent;
+    -fx-text-fill: -fx-hs-font-color;
+    -fx-background-radius: 0;
+    -fx-padding: 0;
+}
+
+.terminal-component .scroll-pane {
+    -fx-background-color: transparent;
+    -fx-background-radius: 0;
+    -fx-padding: 0;
+    -fx-hbar-policy: NEVER;
+    -fx-vbar-policy: NEVER;
+}
+
+.terminal-component .content {
+    -fx-background-color: -fx-hs-content-background;
+    -fx-background-radius: 0;
+    -fx-padding: 0;
+}
+
+/* |--------------------| */
+/* |  EDITOR COMPONENT  | */
+/* |--------------------| */
+.editor-component .text-area {
+    -fx-background-color: transparent;
+    -fx-text-fill: -fx-hs-font-color;
+    -fx-background-radius: 0;
+    -fx-padding: 0;
+}
+
+.editor-component .text-area .scroll-pane {
+    -fx-background-color: transparent;
+    -fx-background-radius: 0;
+    -fx-padding: 0;
+    -fx-hbar-policy: NEVER;
+    -fx-vbar-policy: NEVER;
+}
+
+.editor-component .text-area .content {
+    -fx-background-color: -fx-hs-content-background;
+    -fx-background-radius: 0;
+    -fx-padding: 0;
+}
+
+.editor-component .stack-pane {
+    -fx-background-color: -fx-hs-content-background;
+    -fx-alignment: center-left;
+}
+
+.editor-component Text {
+    -fx-fill: -fx-hs-font-color;
+}
