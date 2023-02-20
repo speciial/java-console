@@ -2,9 +2,12 @@ package ui;
 
 import javafx.application.Application;
 import javafx.scene.Scene;
+import javafx.scene.input.KeyEvent;
 import javafx.scene.layout.StackPane;
 import javafx.scene.text.Font;
 import javafx.stage.Stage;
+import ui.components.EditorComponent;
+import ui.components.TerminalComponent;
 
 import java.util.Objects;
 
@@ -18,7 +21,7 @@ public class ApplicationWindow extends Application implements Runnable {
     private static final double WINDOW_CONTENT_WIDTH = 602;
     private static final double WINDOW_CONTENT_HEIGHT = 451.5;
 
-    public static Font WINDOW_FONT;
+    private static Font WINDOW_FONT;
 
     // Container Components
     private Scene windowScene;
@@ -34,28 +37,43 @@ public class ApplicationWindow extends Application implements Runnable {
     }
 
     @Override
-    public void stop() {
-    }
-
-    @Override
     public void init() {
         loadFontFiles();
     }
 
     @Override
     public void start(Stage stage) {
+        // Component initialization
         terminalComponent = new TerminalComponent(WINDOW_CONTENT_WIDTH, WINDOW_CONTENT_HEIGHT, WINDOW_FONT);
         editorComponent = new EditorComponent(WINDOW_CONTENT_WIDTH, WINDOW_CONTENT_HEIGHT, WINDOW_FONT);
 
-        rootContainer = new StackPane(editorComponent);
+        rootContainer = new StackPane(terminalComponent);
         windowScene = new Scene(rootContainer, WINDOW_WIDTH, WINDOW_HEIGHT);
 
         applyDefaultStyles();
+
+        // Initialization complete
+        WindowContext.setTerminalComponent(terminalComponent);
+        WindowContext.setEditorComponent(editorComponent);
+        WindowContext.addToEventQueue(WindowEvent.UI_STARTUP);
+
+        stage.addEventHandler(KeyEvent.KEY_PRESSED, event -> {
+            switch (event.getCode()) {
+                case TAB -> WindowContext.addToEventQueue(WindowEvent.UI_KEY_TAB);
+                case ESCAPE -> WindowContext.addToEventQueue(WindowEvent.UI_KEY_ESC);
+                case ENTER -> System.out.println("DOES ENTER GET CONSUMED?");
+            }
+        });
 
         stage.setTitle(WINDOW_TITLE);
         stage.setScene(windowScene);
         stage.setResizable(false);
         stage.show();
+    }
+
+    @Override
+    public void stop() {
+        WindowContext.addToEventQueue(WindowEvent.UI_SHUTDOWN);
     }
 
     private void loadFontFiles() {
@@ -79,7 +97,6 @@ public class ApplicationWindow extends Application implements Runnable {
         //    -fx-hs-container-background: rgba(80, 80, 80, 1);
         //    -fx-hs-content-background: rgba(160, 160, 160, 1);
         //    -fx-hs-font-color: rgba(30, 30, 30, 1);
-
         rootContainer.getStyleClass().add("root");
         terminalComponent.getStyleClass().add("terminal-component");
         editorComponent.getStyleClass().add("editor-component");
