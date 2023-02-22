@@ -1,19 +1,22 @@
 package os.io;
 
-import ui.WindowContext;
+import ui.ApplicationOutputStream;
 
-public class TerminalOutputStream {
+public class TerminalOutputStream extends ApplicationOutputStream {
 
+    @Override
     public void print(String line) {
-        WindowContext.print(line);
+        outputDevice.appendToTextBuffer(line);
     }
 
+    @Override
     public void println(String line) {
-        WindowContext.print(line + "\n");
+        outputDevice.appendToTextBuffer(line + "\n");
     }
 
+    @Override
     public void printf(String format, Object... args) {
-        WindowContext.print(String.format(format, args));
+        outputDevice.appendToTextBuffer(String.format(format, args));
     }
 
 }

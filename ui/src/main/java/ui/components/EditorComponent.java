@@ -5,16 +5,28 @@ import javafx.scene.layout.StackPane;
 import javafx.scene.layout.VBox;
 import javafx.scene.text.Font;
 import javafx.scene.text.Text;
+import ui.ApplicationEvent;
+
+import java.util.concurrent.BlockingQueue;
 
 public class EditorComponent extends VBox {
 
     private static final String CONTROL_INSTRUCTIONS = "TODO: REPLACE!";
 
+    private final BlockingQueue<ApplicationEvent> eventQueue;
+
     private TextArea editorArea;
     private StackPane instructionsRegion;
     private Text instructionsLabel;
 
-    public EditorComponent(double width, double height, Font font) {
+    public EditorComponent(BlockingQueue<ApplicationEvent> eventQueue, double width, double height, Font font) {
+        this.eventQueue = eventQueue;
+
+        setUpFx(width, height, font);
+        setUpKeyListener();
+    }
+
+    private void setUpFx(double width, double height, Font font) {
         setMaxWidth(width);
         setMaxHeight(height);
 
@@ -39,4 +51,6 @@ public class EditorComponent extends VBox {
         getChildren().addAll(editorArea, instructionsRegion);
     }
 
+    private void setUpKeyListener() {
+    }
 }

@@ -10,6 +10,7 @@ import ui.components.EditorComponent;
 import ui.components.TerminalComponent;
 
 import java.util.Objects;
+import java.util.concurrent.BlockingQueue;
 
 public class ApplicationWindow extends Application implements Runnable {
 
@@ -31,6 +32,21 @@ public class ApplicationWindow extends Application implements Runnable {
     private TerminalComponent terminalComponent;
     private EditorComponent editorComponent;
 
+    // Reference to the ui-wide event queue
+    private static BlockingQueue<ApplicationEvent> eventQueue;
+
+    // Input and output streams for the os
+    private static ApplicationInputStream inputStream;
+    private static ApplicationOutputStream outputStream;
+
+    public static void configureApplicationWindow(ApplicationEventQueue _eventQueue,
+                                                  ApplicationInputStream _inputStream,
+                                                  ApplicationOutputStream _outputStream) {
+        eventQueue = _eventQueue.getInternalQueue();
+        inputStream = _inputStream;
+        outputStream = _outputStream;
+    }
+
     @Override
     public void run() {
         Application.launch();
@@ -44,8 +60,8 @@ public class ApplicationWindow extends Application implements Runnable {
     @Override
     public void start(Stage stage) {
         // Component initialization
-        terminalComponent = new TerminalComponent(WINDOW_CONTENT_WIDTH, WINDOW_CONTENT_HEIGHT, WINDOW_FONT);
-        editorComponent = new EditorComponent(WINDOW_CONTENT_WIDTH, WINDOW_CONTENT_HEIGHT, WINDOW_FONT);
+        terminalComponent = new TerminalComponent(eventQueue, inputStream, WINDOW_CONTENT_WIDTH, WINDOW_CONTENT_HEIGHT, WINDOW_FONT);
+        editorComponent = new EditorComponent(eventQueue, WINDOW_CONTENT_WIDTH, WINDOW_CONTENT_HEIGHT, WINDOW_FONT);
 
         rootContainer = new StackPane(terminalComponent);
         windowScene = new Scene(rootContainer, WINDOW_WIDTH, WINDOW_HEIGHT);
@@ -53,14 +69,13 @@ public class ApplicationWindow extends Application implements Runnable {
         applyDefaultStyles();
 
         // Initialization complete
-        WindowContext.setTerminalComponent(terminalComponent);
-        WindowContext.setEditorComponent(editorComponent);
-        WindowContext.addToEventQueue(WindowEvent.UI_STARTUP);
+        // WindowContext.setEditorComponent(editorComponent);
+        outputStream.setOutputComponent(terminalComponent);
+        eventQueue.add(ApplicationEvent.UI_STARTUP);
 
         stage.addEventHandler(KeyEvent.KEY_PRESSED, event -> {
             switch (event.getCode()) {
-                case TAB -> WindowContext.addToEventQueue(WindowEvent.UI_KEY_TAB);
-                case ESCAPE -> WindowContext.addToEventQueue(WindowEvent.UI_KEY_ESC);
+                case ESCAPE -> eventQueue.add(ApplicationEvent.UI_KEY_ESC);
                 case ENTER -> System.out.println("DOES ENTER GET CONSUMED?");
             }
         });
@@ -73,7 +88,7 @@ public class ApplicationWindow extends Application implements Runnable {
 
     @Override
     public void stop() {
-        WindowContext.addToEventQueue(WindowEvent.UI_SHUTDOWN);
+        eventQueue.add(ApplicationEvent.UI_SHUTDOWN);
     }
 
     private void loadFontFiles() {
