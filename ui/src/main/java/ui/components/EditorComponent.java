@@ -16,7 +16,6 @@ public class EditorComponent extends VBox {
     private final BlockingQueue<ApplicationEvent> eventQueue;
 
     private TextArea editorArea;
-    private StackPane instructionsRegion;
     private Text instructionsLabel;
 
     public EditorComponent(BlockingQueue<ApplicationEvent> eventQueue, double width, double height, Font font) {
@@ -24,6 +23,11 @@ public class EditorComponent extends VBox {
 
         setUpFx(width, height, font);
         setUpKeyListener();
+    }
+
+    public void setFont(Font font) {
+        editorArea.setFont(font);
+        instructionsLabel.setFont(font);
     }
 
     private void setUpFx(double width, double height, Font font) {
@@ -35,7 +39,7 @@ public class EditorComponent extends VBox {
         instructionsLabel.setFont(font);
         double instructionsHeight = instructionsLabel.getLayoutBounds().getHeight();
 
-        instructionsRegion = new StackPane(instructionsLabel);
+        StackPane instructionsRegion = new StackPane(instructionsLabel);
         instructionsRegion.getStyleClass().add("stack-pane");
         instructionsRegion.setMinWidth(width);
         instructionsRegion.setMaxWidth(width);

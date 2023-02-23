@@ -4,6 +4,7 @@ import os.io.TerminalInputStream;
 import os.io.TerminalOutputStream;
 import ui.ApplicationEvent;
 import ui.ApplicationEventQueue;
+import ui.ApplicationSettings;
 
 public class HSOS implements Runnable {
 
@@ -19,17 +20,27 @@ public class HSOS implements Runnable {
     public void run() {
         boolean running = true;
 
+        int fontSize = 14;
+
         while (running) {
             System.out.println("Running Loop");
 
             try {
                 ApplicationEvent event = eventQueue.getNextEvent();
                 switch (event) {
+                    case UI_STARTUP -> out.print("c:/dev" + ">");
                     case UI_SHUTDOWN -> running = false;
-                    case UI_KEY_ESC -> out.println("ESCAPE has been pressed");
+                    case UI_KEY_ESC -> {
+                        ApplicationSettings.getInstance().setWindowFont("Liberation Mono Bold", fontSize);
+
+                        fontSize++;
+                        if (fontSize > 20) {
+                            fontSize = 12;
+                        }
+                    }
                     case TERMINAL_KEY_TAB -> out.println("TAB has been pressed");
                     case TERMINAL_KEY_ENTER -> {
-                        out.println("\nENTER has been pressed");
+                        out.println("ENTER has been pressed");
 
                         String line = in.readLine();
                         out.println("The following has been typed: " + line);
@@ -37,10 +48,12 @@ public class HSOS implements Runnable {
                         out.print("Enter some text here: ");
                         String newLine = in.readLine();
                         out.println("Thank you for typing the following: " + newLine);
+
+                        out.print("c:/dev" + ">");
                     }
                 }
 
-                out.print("c:/dev" + ">");
+
                 eventQueue.flushEventQueue();
             } catch (InterruptedException e) {
                 System.out.println("An error during system initialization occurred!");

@@ -15,9 +15,6 @@ public class TerminalInputStream extends ApplicationInputStream {
 
     @Override
     public void writeToBuffer(String line) {
-        // TODO(christian): do we even need to lock here? If I understand the example correctly, I should just be able
-        //                  to signal that a line has been written.
-
         try {
             lock.lock();
             lineBuffer.append(line);
