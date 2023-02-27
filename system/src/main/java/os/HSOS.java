@@ -2,9 +2,9 @@ package os;
 
 import os.io.TerminalInputStream;
 import os.io.TerminalOutputStream;
+import os.programs.HSEdit;
 import ui.ApplicationEvent;
 import ui.ApplicationEventQueue;
-import ui.ApplicationSettings;
 
 public class HSOS implements Runnable {
 
@@ -13,41 +13,28 @@ public class HSOS implements Runnable {
 
     public ApplicationEventQueue eventQueue;
 
-    public TerminalOutputStream out;
-    public TerminalInputStream in;
+    public static TerminalOutputStream out;
+    public static TerminalInputStream in;
 
     @Override
     public void run() {
         boolean running = true;
 
-        int fontSize = 14;
-
         while (running) {
-            System.out.println("Running Loop");
-
             try {
                 ApplicationEvent event = eventQueue.getNextEvent();
                 switch (event) {
                     case UI_STARTUP -> out.print("c:/dev" + ">");
                     case UI_SHUTDOWN -> running = false;
                     case UI_KEY_ESC -> {
-                        ApplicationSettings.getInstance().setWindowFont("Liberation Mono Bold", fontSize);
-
-                        fontSize++;
-                        if (fontSize > 20) {
-                            fontSize = 12;
-                        }
                     }
                     case TERMINAL_KEY_TAB -> out.println("TAB has been pressed");
                     case TERMINAL_KEY_ENTER -> {
-                        out.println("ENTER has been pressed");
-
                         String line = in.readLine();
-                        out.println("The following has been typed: " + line);
-
-                        out.print("Enter some text here: ");
-                        String newLine = in.readLine();
-                        out.println("Thank you for typing the following: " + newLine);
+                        if (line.equals("hsedit")) {
+                            HSEdit edit = new HSEdit();
+                            edit.execute(null);
+                        }
 
                         out.print("c:/dev" + ">");
                     }

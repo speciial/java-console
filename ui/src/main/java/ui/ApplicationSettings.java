@@ -1,5 +1,6 @@
 package ui;
 
+import javafx.application.Platform;
 import javafx.scene.text.Font;
 import ui.components.EditorComponent;
 import ui.components.TerminalComponent;
@@ -25,7 +26,10 @@ public class ApplicationSettings {
     private TerminalComponent terminalComponent;
     private EditorComponent editorComponent;
 
+    private ApplicationMode activeMode;
+
     private ApplicationSettings() {
+        activeMode = ApplicationMode.TERMINAL;
     }
 
     public void setWindowFont(String fontName, int size) {
@@ -36,8 +40,35 @@ public class ApplicationSettings {
 
     }
 
-    public void setWindowMode(String modeName) {
+    public void setWindowMode(ApplicationMode mode) {
+        Platform.runLater(() -> {
+            switch (mode) {
+                case TERMINAL -> {
+                    if (activeMode != ApplicationMode.TERMINAL) {
+                        activeMode = ApplicationMode.TERMINAL;
+                        windowComponent.setTerminalActive();
+                    }
+                }
+                case EDITOR -> {
+                    if (activeMode != ApplicationMode.EDITOR) {
+                        activeMode = ApplicationMode.EDITOR;
+                        windowComponent.setEditorActive();
+                    }
+                }
+            }
+        });
+    }
 
+    public ApplicationMode getWindowMode() {
+        return activeMode;
+    }
+
+    public void setEditorFilename(String filename) {
+        editorComponent.setFilename(filename);
+    }
+
+    public void setEditorCallback(ApplicationEditorCallBack callback) {
+        editorComponent.setCallBack(callback);
     }
 
     protected void setComponents(WindowComponent windowComponent) {

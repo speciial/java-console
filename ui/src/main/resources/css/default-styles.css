@@ -1,11 +1,14 @@
 .root {
     /* CSS Look-Up Colors */
-    -fx-hs-container-background: rgba(80, 80, 80, 1);
-    -fx-hs-content-background: rgba(160, 160, 160, 1);
-    -fx-hs-font-color: rgba(30, 30, 30, 1);
+    -fx-hs-container-background: rgba(90, 90, 90, 1);
+    -fx-hs-content-background: rgba(40, 40, 40, 1);
+    -fx-hs-info-background: rgba(64, 64, 64, 1);
+    -fx-hs-font-color: rgba(0, 137, 123, 1);
+    -fx-hs-font-highlight-color: rgba(0, 86, 77, 1);
 
     /* Root Container Styling */
     -fx-background-color: -fx-hs-container-background;
+    -fx-accent: -fx-hs-font-highlight-color;
 }
 
 /* |--------------------| */
@@ -42,6 +45,10 @@
     -fx-padding: 0;
 }
 
+.editor-component Text {
+    -fx-tab-size: 4;
+}
+
 .editor-component .text-area .scroll-pane {
     -fx-background-color: transparent;
     -fx-background-radius: 0;
@@ -56,11 +63,25 @@
     -fx-padding: 0;
 }
 
-.editor-component .stack-pane {
-    -fx-background-color: -fx-hs-content-background;
-    -fx-alignment: center-left;
+.editor-component .text-field {
+    -fx-background-color: -fx-hs-info-background;
+    -fx-text-fill: -fx-hs-font-color;
+    -fx-background-radius: 0;
+    -fx-padding: 0;
 }
 
-.editor-component Text {
+.editor-component .text-field .content {
+    -fx-background-color: -fx-hs-info-background;
+    -fx-background-radius: 0;
+    -fx-padding: 0;
+}
+
+.editor-component .info-line {
+    -fx-background-color: -fx-hs-info-background;
+    -fx-background-radius: 0;
+    -fx-padding: 0;
+}
+
+.editor-component .info-line .info-line-text {
     -fx-fill: -fx-hs-font-color;
 }

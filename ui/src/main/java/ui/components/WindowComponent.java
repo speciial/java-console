@@ -57,6 +57,20 @@ public class WindowComponent {
         editorComponent.setFont(font);
     }
 
+    public void setTerminalActive() {
+        rootContainer.getChildren().clear();
+
+        editorComponent.disable();
+        rootContainer.getChildren().add(terminalComponent);
+    }
+
+    public void setEditorActive() {
+        rootContainer.getChildren().clear();
+
+        editorComponent.enable();
+        rootContainer.getChildren().add(editorComponent);
+    }
+
     public TerminalComponent getTerminalComponent() {
         return terminalComponent;
     }
@@ -80,7 +94,7 @@ public class WindowComponent {
 
         // Component initialization
         terminalComponent = new TerminalComponent(eventQueue, inputStream, WINDOW_CONTENT_WIDTH, WINDOW_CONTENT_HEIGHT, WINDOW_FONT);
-        editorComponent = new EditorComponent(eventQueue, WINDOW_CONTENT_WIDTH, WINDOW_CONTENT_HEIGHT, WINDOW_FONT);
+        editorComponent = new EditorComponent(WINDOW_CONTENT_WIDTH, WINDOW_CONTENT_HEIGHT, WINDOW_FONT);
 
         rootContainer = new StackPane(terminalComponent);
         windowScene = new Scene(rootContainer, WINDOW_WIDTH, WINDOW_HEIGHT);
@@ -116,6 +130,5 @@ public class WindowComponent {
         windowScene.getStylesheets().add(
                 Objects.requireNonNull(getClass().getResource("/css/default-styles.css")).toExternalForm());
     }
-
 
 }

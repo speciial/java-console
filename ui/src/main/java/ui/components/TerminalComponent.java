@@ -40,7 +40,9 @@ public class TerminalComponent extends TextArea {
     private void setUpFx(double width, double height, Font font) {
         setFont(font);
 
+        setMinWidth(width);
         setMaxWidth(width);
+        setMinHeight(height);
         setMaxHeight(height);
 
         setWrapText(true);
