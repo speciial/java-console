@@ -6,9 +6,21 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="files" />
+        <module name="settings" />
         <module name="ui" />
-        <module name="system" />
+        <module name="user" />
+        <module name="hsos" />
+        <module name="network" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="hsos (1)" target="15" />
+      <module name="hsos (1) (io.github.speciial)" target="15" />
+      <module name="hsos (2)" target="15" />
+      <module name="hsos (2) (hsos)" target="15" />
+      <module name="hsos-application" target="15" />
+      <module name="java-console" target="15" />
+    </bytecodeTargetLevel>
   </component>
 </project>
