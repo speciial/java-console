@@ -1,0 +1,5087 @@
+{
+  "root": {
+    "fileProperties": {
+      "name": "H:",
+      "isFolder": true,
+      "user": "OS",
+      "created": "2022-03-09T14:45:48.109777600+01:00[Europe/Berlin]",
+      "size": -1
+    },
+    "children": [
+      {
+        "fileProperties": {
+          "name": "home",
+          "isFolder": true,
+          "user": "User",
+          "created": "2022-03-09T14:45:57.323381+01:00[Europe/Berlin]",
+          "size": -1
+        },
+        "children": [
+          {
+            "fileProperties": {
+              "name": "documents",
+              "isFolder": true,
+              "user": "User",
+              "created": "2022-03-09T14:46:59.238283200+01:00[Europe/Berlin]",
+              "size": -1
+            },
+            "children": [
+              {
+                "fileProperties": {
+                  "name": "test.txt",
+                  "isFolder": false,
+                  "user": "User",
+                  "created": "2022-03-09T14:47:25.041368400+01:00[Europe/Berlin]",
+                  "content": "Some test text",
+                  "size": 14
+                }
+              },
+              {
+                "fileProperties": {
+                  "name": "moreText.txt",
+                  "isFolder": false,
+                  "user": "User",
+                  "created": "2022-03-09T14:48:32.226498400+01:00[Europe/Berlin]",
+                  "content": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+                  "size": 591
+                }
+              },
+              {
+                "fileProperties": {
+                  "name": "work",
+                  "isFolder": true,
+                  "user": "User",
+                  "created": "2022-03-09T14:49:09.761185400+01:00[Europe/Berlin]",
+                  "size": -1
+                },
+                "children": []
+              },
+              {
+                "fileProperties": {
+                  "name": "usertest.txt",
+                  "isFolder": false,
+                  "user": "root",
+                  "created": "2022-04-03T13:45:04.271088200+02:00[Europe/Berlin]",
+                  "content": "",
+                  "size": 0
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "fileProperties": {
+          "name": "system",
+          "isFolder": true,
+          "user": "User",
+          "created": "2022-03-15T07:06:58.927330600+01:00[Europe/Berlin]",
+          "size": -1
+        },
+        "children": [
+          {
+            "fileProperties": {
+              "name": "nobis_sed.avi",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-10-20T10:30:22.937+02:00[Europe/Berlin]",
+              "content": "Multi-channelled optimal software",
+              "size": 33
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "inventore_deleniti.ods",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-07-16T09:07:28.716+02:00[Europe/Berlin]",
+              "content": "Centralized clear-thinking conglomeration",
+              "size": 41
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "vero_occaecati.png",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-08-21T13:30:43.767+02:00[Europe/Berlin]",
+              "content": "Realigned composite hardware",
+              "size": 28
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "ut_ratione.xlsx",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-07-08T02:56:05.518+02:00[Europe/Berlin]",
+              "content": "Exclusive dynamic conglomeration",
+              "size": 32
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "consequatur_et.html",
+              "isFolder": false,
+              "user": "os",
+              "created": "2022-01-22T02:57:58.115+01:00[Europe/Berlin]",
+              "content": "Polarised high-level conglomeration",
+              "size": 35
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "alias_aut.doc",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-07-12T04:08:45.999+02:00[Europe/Berlin]",
+              "content": "Compatible incremental workforce",
+              "size": 32
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "nihil_optio.xls",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-07-25T01:07:19.220+02:00[Europe/Berlin]",
+              "content": "Public-key executive alliance",
+              "size": 29
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "saepe_et.webm",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-04-25T16:20:13.466+02:00[Europe/Berlin]",
+              "content": "Reactive maximized policy",
+              "size": 25
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "reprehenderit_non.pdf",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-09-28T00:38:23.056+02:00[Europe/Berlin]",
+              "content": "Visionary coherent middleware",
+              "size": 29
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "error_ab.txt",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-12-25T17:28:42.385+01:00[Europe/Berlin]",
+              "content": "Optimized incremental parallelism",
+              "size": 33
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "et_voluptatem.avi",
+              "isFolder": false,
+              "user": "os",
+              "created": "2022-02-23T16:27:10.875+01:00[Europe/Berlin]",
+              "content": "Total discrete access",
+              "size": 21
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "vitae_velit.flac",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-04-23T13:23:07.606+02:00[Europe/Berlin]",
+              "content": "Public-key actuating core",
+              "size": 25
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "sequi_est.doc",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-08-16T18:39:39.307+02:00[Europe/Berlin]",
+              "content": "Adaptive 3rd generation knowledge user",
+              "size": 38
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "inventore_animi.numbers",
+              "isFolder": false,
+              "user": "os",
+              "created": "2022-02-21T00:58:41.362+01:00[Europe/Berlin]",
+              "content": "Profound mission-critical software",
+              "size": 34
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "nam_cumque.csv",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-04-04T05:02:41.441+02:00[Europe/Berlin]",
+              "content": "Customer-focused multi-tasking service-desk",
+              "size": 43
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "eius_voluptates.numbers",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-07-17T03:40:42.381+02:00[Europe/Berlin]",
+              "content": "Reduced scalable concept",
+              "size": 24
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "quos_dolores.ods",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-05-01T15:15:20.590+02:00[Europe/Berlin]",
+              "content": "Fully-configurable 24/7 monitoring",
+              "size": 34
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "consequatur_esse.jpeg",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-08-02T04:05:28.547+02:00[Europe/Berlin]",
+              "content": "User-centric modular website",
+              "size": 28
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "aperiam_quod.jpeg",
+              "isFolder": false,
+              "user": "os",
+              "created": "2022-02-14T00:22:41.637+01:00[Europe/Berlin]",
+              "content": "Sharable holistic ability",
+              "size": 25
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "quia_necessitatibus.pdf",
+              "isFolder": false,
+              "user": "os",
+              "created": "2022-01-16T10:00:41.494+01:00[Europe/Berlin]",
+              "content": "Open-architected dedicated workforce",
+              "size": 36
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "minima_maxime.xls",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-09-10T03:09:25.511+02:00[Europe/Berlin]",
+              "content": "Open-source 24/7 help-desk",
+              "size": 26
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "ratione_nihil.flac",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-08-01T09:10:06.553+02:00[Europe/Berlin]",
+              "content": "Synergistic responsive emulation",
+              "size": 32
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "quia_veniam.mp3",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-11-27T04:54:43.043+01:00[Europe/Berlin]",
+              "content": "Monitored interactive throughput",
+              "size": 32
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "quia_placeat.docx",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-08-30T23:35:56.013+02:00[Europe/Berlin]",
+              "content": "Synergistic object-oriented focus group",
+              "size": 39
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "ut_praesentium.xlsx",
+              "isFolder": false,
+              "user": "os",
+              "created": "2022-01-29T01:48:24.386+01:00[Europe/Berlin]",
+              "content": "Synergistic local adapter",
+              "size": 25
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "voluptatum_omnis.csv",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-05-24T22:09:48.101+02:00[Europe/Berlin]",
+              "content": "Function-based grid-enabled encryption",
+              "size": 38
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "sint_ea.xls",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-07-09T12:17:57.212+02:00[Europe/Berlin]",
+              "content": "Front-line composite migration",
+              "size": 30
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "odio_quam.jpeg",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-04-22T11:52:49.743+02:00[Europe/Berlin]",
+              "content": "Automated exuding instruction set",
+              "size": 33
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "voluptates_est.wav",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-10-27T19:03:29.702+02:00[Europe/Berlin]",
+              "content": "Advanced mission-critical hardware",
+              "size": 34
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "reiciendis_doloribus.doc",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-07-28T00:52:50.147+02:00[Europe/Berlin]",
+              "content": "Monitored foreground standardization",
+              "size": 36
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "possimus_pariatur.json",
+              "isFolder": false,
+              "user": "os",
+              "created": "2022-01-25T22:20:55.265+01:00[Europe/Berlin]",
+              "content": "Decentralized logistical core",
+              "size": 29
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "corrupti_consequatur.avi",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-11-19T19:52:29.163+01:00[Europe/Berlin]",
+              "content": "Fully-configurable optimal capacity",
+              "size": 35
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "totam_suscipit.flac",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-08-20T07:14:47.360+02:00[Europe/Berlin]",
+              "content": "Devolved system-worthy customer loyalty",
+              "size": 39
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "consequuntur_tempore.webm",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-12-10T14:46:06.537+01:00[Europe/Berlin]",
+              "content": "Business-focused motivating pricing structure",
+              "size": 45
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "beatae_placeat.xls",
+              "isFolder": false,
+              "user": "os",
+              "created": "2022-03-14T06:49:08.448+01:00[Europe/Berlin]",
+              "content": "Cloned impactful success",
+              "size": 24
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "nihil_numquam.jpg",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-11-06T09:39:00.005+01:00[Europe/Berlin]",
+              "content": "Triple-buffered systematic knowledge user",
+              "size": 41
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "qui_consequatur.ods",
+              "isFolder": false,
+              "user": "os",
+              "created": "2022-01-17T05:52:28.070+01:00[Europe/Berlin]",
+              "content": "Secured clear-thinking concept",
+              "size": 30
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "repellat_molestias.mp3",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-04-01T18:42:17.632+02:00[Europe/Berlin]",
+              "content": "Realigned next generation parallelism",
+              "size": 37
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "reiciendis_ut.js",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-09-26T18:21:17.108+02:00[Europe/Berlin]",
+              "content": "Horizontal discrete Graphic Interface",
+              "size": 37
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "saepe_ipsam.key",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-03-28T20:23:18.459+02:00[Europe/Berlin]",
+              "content": "Fundamental intermediate time-frame",
+              "size": 35
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "aspernatur_non.js",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-08-09T07:55:25.557+02:00[Europe/Berlin]",
+              "content": "Configurable multi-tasking collaboration",
+              "size": 40
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "omnis_non.pdf",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-05-28T14:11:12.378+02:00[Europe/Berlin]",
+              "content": "Ameliorated solution-oriented alliance",
+              "size": 38
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "tempora_ut.flac",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-09-11T18:52:42.727+02:00[Europe/Berlin]",
+              "content": "Multi-layered even-keeled productivity",
+              "size": 38
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "qui_ipsa.doc",
+              "isFolder": false,
+              "user": "os",
+              "created": "2022-01-07T17:01:59.898+01:00[Europe/Berlin]",
+              "content": "Synchronised holistic structure",
+              "size": 31
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "non_voluptatem.js",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-06-22T02:55:20.307+02:00[Europe/Berlin]",
+              "content": "Streamlined executive ability",
+              "size": 29
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "minus_dignissimos.ppt",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-09-19T16:43:18.437+02:00[Europe/Berlin]",
+              "content": "Streamlined responsive complexity",
+              "size": 33
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "deleniti_hic.xls",
+              "isFolder": false,
+              "user": "os",
+              "created": "2022-02-07T12:31:31.684+01:00[Europe/Berlin]",
+              "content": "Exclusive contextually-based data-warehouse",
+              "size": 43
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "dolores_blanditiis.mp4",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-05-04T16:09:30.158+02:00[Europe/Berlin]",
+              "content": "Inverse mission-critical installation",
+              "size": 37
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "tenetur_est.pages",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-10-29T17:46:21.551+02:00[Europe/Berlin]",
+              "content": "Organic contextually-based capability",
+              "size": 37
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "ut_non.csv",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-10-30T09:05:26.097+02:00[Europe/Berlin]",
+              "content": "Reverse-engineered coherent function",
+              "size": 36
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "ut_molestiae.odt",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-09-13T03:38:10.630+02:00[Europe/Berlin]",
+              "content": "Centralized optimizing info-mediaries",
+              "size": 37
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "dolor_aut.wav",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-09-01T21:43:16.494+02:00[Europe/Berlin]",
+              "content": "Operative non-volatile initiative",
+              "size": 33
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "aliquid_et.xls",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-08-21T12:42:41.525+02:00[Europe/Berlin]",
+              "content": "Centralized cohesive utilisation",
+              "size": 32
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "laborum_eum.png",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-09-08T08:13:45.896+02:00[Europe/Berlin]",
+              "content": "Devolved bi-directional strategy",
+              "size": 32
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "necessitatibus_minima.pptx",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-11-11T17:20:13.208+01:00[Europe/Berlin]",
+              "content": "Phased modular implementation",
+              "size": 29
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "eius_voluptatem.txt",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-06-11T20:55:21.832+02:00[Europe/Berlin]",
+              "content": "Persevering object-oriented collaboration",
+              "size": 41
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "doloremque_rerum.odp",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-04-11T06:00:28.149+02:00[Europe/Berlin]",
+              "content": "User-friendly user-facing analyzer",
+              "size": 34
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "voluptatum_reprehenderit.odt",
+              "isFolder": false,
+              "user": "os",
+              "created": "2022-01-23T04:58:53.056+01:00[Europe/Berlin]",
+              "content": "Networked client-server firmware",
+              "size": 32
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "sed_atque.jpeg",
+              "isFolder": false,
+              "user": "os",
+              "created": "2022-02-17T22:05:17.766+01:00[Europe/Berlin]",
+              "content": "Robust 5th generation array",
+              "size": 27
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "consequuntur_quos.ppt",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-12-29T20:09:39.549+01:00[Europe/Berlin]",
+              "content": "Integrated holistic task-force",
+              "size": 30
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "debitis_distinctio.json",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-07-06T00:43:07.535+02:00[Europe/Berlin]",
+              "content": "Upgradable upward-trending complexity",
+              "size": 37
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "qui_quos.mp4",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-10-29T15:31:00.600+02:00[Europe/Berlin]",
+              "content": "Distributed demand-driven hub",
+              "size": 29
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "sapiente_deleniti.mp3",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-05-07T16:17:03.776+02:00[Europe/Berlin]",
+              "content": "Profit-focused multi-state application",
+              "size": 38
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "reprehenderit_iusto.png",
+              "isFolder": false,
+              "user": "os",
+              "created": "2022-03-07T03:36:02.716+01:00[Europe/Berlin]",
+              "content": "Versatile needs-based capacity",
+              "size": 30
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "a_temporibus.odt",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-04-24T21:57:18.906+02:00[Europe/Berlin]",
+              "content": "Optional incremental conglomeration",
+              "size": 35
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "eveniet_omnis.xlsx",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-04-09T07:13:30.633+02:00[Europe/Berlin]",
+              "content": "Cross-platform even-keeled orchestration",
+              "size": 40
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "doloremque_dicta.odp",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-08-20T06:39:27.775+02:00[Europe/Berlin]",
+              "content": "Decentralized bi-directional encryption",
+              "size": 39
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "amet_doloremque.pages",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-10-21T06:57:20.849+02:00[Europe/Berlin]",
+              "content": "Robust grid-enabled superstructure",
+              "size": 34
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "eum_placeat.xls",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-06-02T03:07:58.959+02:00[Europe/Berlin]",
+              "content": "Self-enabling tertiary hierarchy",
+              "size": 32
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "ut_itaque.css",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-08-18T14:50:10.232+02:00[Europe/Berlin]",
+              "content": "Persistent system-worthy project",
+              "size": 32
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "quis_itaque.jpeg",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-08-08T06:28:49.422+02:00[Europe/Berlin]",
+              "content": "Devolved maximized function",
+              "size": 27
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "deleniti_alias.csv",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-06-24T02:00:11.094+02:00[Europe/Berlin]",
+              "content": "Synergized neutral policy",
+              "size": 25
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "et_ab.mov",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-12-22T20:12:02.787+01:00[Europe/Berlin]",
+              "content": "Exclusive maximized capacity",
+              "size": 28
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "dolor_beatae.ppt",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-12-18T04:25:47.676+01:00[Europe/Berlin]",
+              "content": "Self-enabling hybrid software",
+              "size": 29
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "deserunt_aut.tiff",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-04-28T14:32:45.387+02:00[Europe/Berlin]",
+              "content": "Streamlined static complexity",
+              "size": 29
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "eos_et.key",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-08-01T21:39:20.134+02:00[Europe/Berlin]",
+              "content": "Open-source national product",
+              "size": 28
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "recusandae_vel.docx",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-05-21T06:48:16.471+02:00[Europe/Berlin]",
+              "content": "Distributed needs-based productivity",
+              "size": 36
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "vel_maxime.flac",
+              "isFolder": false,
+              "user": "os",
+              "created": "2022-01-15T03:57:14.955+01:00[Europe/Berlin]",
+              "content": "Multi-tiered dynamic local area network",
+              "size": 39
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "vel_rerum.webm",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-12-20T18:40:04.691+01:00[Europe/Berlin]",
+              "content": "Grass-roots intangible groupware",
+              "size": 32
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "tempora_officia.mp3",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-09-27T20:18:20.827+02:00[Europe/Berlin]",
+              "content": "Optional high-level superstructure",
+              "size": 34
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "optio_nemo.ppt",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-11-11T21:58:00.240+01:00[Europe/Berlin]",
+              "content": "Reverse-engineered demand-driven analyzer",
+              "size": 41
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "architecto_placeat.jpeg",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-08-24T22:51:56.884+02:00[Europe/Berlin]",
+              "content": "Front-line full-range structure",
+              "size": 31
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "quidem_animi.xlsx",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-06-19T00:31:12.006+02:00[Europe/Berlin]",
+              "content": "Persistent fault-tolerant definition",
+              "size": 36
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "et_perferendis.webm",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-10-04T18:24:00.817+02:00[Europe/Berlin]",
+              "content": "Implemented transitional open system",
+              "size": 36
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "illo_molestiae.odp",
+              "isFolder": false,
+              "user": "os",
+              "created": "2022-02-23T03:01:30.209+01:00[Europe/Berlin]",
+              "content": "Ergonomic fresh-thinking encryption",
+              "size": 35
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "eaque_nobis.avi",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-09-25T00:45:55.062+02:00[Europe/Berlin]",
+              "content": "Enhanced context-sensitive circuit",
+              "size": 34
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "porro_culpa.mov",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-10-13T05:39:56.438+02:00[Europe/Berlin]",
+              "content": "Vision-oriented heuristic software",
+              "size": 34
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "officiis_neque.png",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-04-04T10:03:05.913+02:00[Europe/Berlin]",
+              "content": "Organic intangible emulation",
+              "size": 28
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "adipisci_ex.avi",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-06-07T17:13:33.253+02:00[Europe/Berlin]",
+              "content": "Multi-layered context-sensitive focus group",
+              "size": 43
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "voluptatem_animi.avi",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-06-16T13:59:38.842+02:00[Europe/Berlin]",
+              "content": "Switchable human-resource frame",
+              "size": 31
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "aliquid_cum.key",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-10-17T13:59:50.494+02:00[Europe/Berlin]",
+              "content": "Synchronised motivating process improvement",
+              "size": 43
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "commodi_repudiandae.wav",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-04-08T04:55:49.705+02:00[Europe/Berlin]",
+              "content": "Fully-configurable background software",
+              "size": 38
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "veniam_sunt.csv",
+              "isFolder": false,
+              "user": "os",
+              "created": "2022-02-20T11:06:54.474+01:00[Europe/Berlin]",
+              "content": "User-friendly next generation encoding",
+              "size": 38
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "rem_culpa.json",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-03-31T02:38:36.806+02:00[Europe/Berlin]",
+              "content": "Total attitude-oriented methodology",
+              "size": 35
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "sit_aut.css",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-09-27T11:38:53.659+02:00[Europe/Berlin]",
+              "content": "Assimilated 6th generation open architecture",
+              "size": 44
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "dignissimos_quis.css",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-07-18T08:50:37.312+02:00[Europe/Berlin]",
+              "content": "Enhanced client-driven local area network",
+              "size": 41
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "quis_qui.json",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-07-08T09:34:43.171+02:00[Europe/Berlin]",
+              "content": "Automated upward-trending alliance",
+              "size": 34
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "laboriosam_error.txt",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-07-08T23:14:47.283+02:00[Europe/Berlin]",
+              "content": "Cross-platform contextually-based portal",
+              "size": 40
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "assumenda_sed.pages",
+              "isFolder": false,
+              "user": "os",
+              "created": "2022-01-16T21:18:34.296+01:00[Europe/Berlin]",
+              "content": "Right-sized directional array",
+              "size": 29
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "illum_voluptatem.pdf",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-09-23T06:49:32.535+02:00[Europe/Berlin]",
+              "content": "Customizable scalable hardware",
+              "size": 30
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "consequatur_maxime.jpg",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-11-08T08:31:13.875+01:00[Europe/Berlin]",
+              "content": "Front-line coherent core",
+              "size": 24
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "repellat_aliquam.xls",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-04-26T08:31:59.895+02:00[Europe/Berlin]",
+              "content": "Synchronised interactive collaboration",
+              "size": 38
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "et_porro.jpg",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-11-05T20:20:55.604+01:00[Europe/Berlin]",
+              "content": "Profound eco-centric implementation",
+              "size": 35
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "amet_exercitationem.avi",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-07-21T05:20:08.294+02:00[Europe/Berlin]",
+              "content": "Reduced cohesive matrix",
+              "size": 23
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "minima_voluptatem.xls",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-04-20T09:54:46.307+02:00[Europe/Berlin]",
+              "content": "Upgradable non-volatile encryption",
+              "size": 34
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "itaque_est.pptx",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-09-12T07:06:05.649+02:00[Europe/Berlin]",
+              "content": "Multi-tiered bifurcated installation",
+              "size": 36
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "hic_corporis.xls",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-09-19T15:05:59.914+02:00[Europe/Berlin]",
+              "content": "Diverse zero tolerance orchestration",
+              "size": 36
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "delectus_ullam.jpeg",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-05-03T16:24:32.920+02:00[Europe/Berlin]",
+              "content": "Digitized object-oriented capability",
+              "size": 36
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "voluptatem_facilis.mov",
+              "isFolder": false,
+              "user": "os",
+              "created": "2022-01-17T01:10:40.062+01:00[Europe/Berlin]",
+              "content": "Business-focused disintermediate protocol",
+              "size": 41
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "culpa_eveniet.bmp",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-12-26T14:41:08.573+01:00[Europe/Berlin]",
+              "content": "Visionary methodical policy",
+              "size": 27
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "vero_sunt.docx",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-11-06T14:50:15.682+01:00[Europe/Berlin]",
+              "content": "Multi-layered leading edge array",
+              "size": 32
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "aut_vitae.mov",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-07-10T20:46:30.169+02:00[Europe/Berlin]",
+              "content": "Object-based foreground capacity",
+              "size": 32
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "soluta_deleniti.avi",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-07-27T01:35:40.832+02:00[Europe/Berlin]",
+              "content": "Diverse logistical protocol",
+              "size": 27
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "est_voluptate.ods",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-04-12T12:58:06.155+02:00[Europe/Berlin]",
+              "content": "Customizable executive core",
+              "size": 27
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "laborum_aut.ods",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-08-29T11:10:53.064+02:00[Europe/Berlin]",
+              "content": "Expanded scalable artificial intelligence",
+              "size": 41
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "officiis_et.odp",
+              "isFolder": false,
+              "user": "os",
+              "created": "2022-02-12T02:44:32.196+01:00[Europe/Berlin]",
+              "content": "Optional upward-trending implementation",
+              "size": 39
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "fugiat_sint.avi",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-12-20T23:00:57.354+01:00[Europe/Berlin]",
+              "content": "Versatile transitional strategy",
+              "size": 31
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "et_incidunt.txt",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-04-13T03:17:41.175+02:00[Europe/Berlin]",
+              "content": "Advanced static protocol",
+              "size": 24
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "sapiente_praesentium.ppt",
+              "isFolder": false,
+              "user": "os",
+              "created": "2022-03-01T12:59:38.330+01:00[Europe/Berlin]",
+              "content": "User-friendly actuating productivity",
+              "size": 36
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "aliquid_illum.tiff",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-04-06T12:36:32.388+02:00[Europe/Berlin]",
+              "content": "Function-based bifurcated Graphic Interface",
+              "size": 43
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "est_temporibus.flac",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-05-01T06:54:31.390+02:00[Europe/Berlin]",
+              "content": "Total grid-enabled time-frame",
+              "size": 29
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "dolor_veritatis.gif",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-12-15T17:03:57.958+01:00[Europe/Berlin]",
+              "content": "Profound 24/7 array",
+              "size": 19
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "debitis_nostrum.odt",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-07-07T03:06:31.817+02:00[Europe/Berlin]",
+              "content": "Multi-tiered 24 hour portal",
+              "size": 27
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "quibusdam_adipisci.mp3",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-06-13T04:17:05.013+02:00[Europe/Berlin]",
+              "content": "Compatible national open architecture",
+              "size": 37
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "quo_at.mp4",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-10-13T19:35:28.917+02:00[Europe/Berlin]",
+              "content": "Realigned directional artificial intelligence",
+              "size": 45
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "quae_ad.xls",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-09-14T09:07:47.404+02:00[Europe/Berlin]",
+              "content": "Team-oriented uniform challenge",
+              "size": 31
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "quisquam_qui.txt",
+              "isFolder": false,
+              "user": "os",
+              "created": "2022-03-04T10:38:35.791+01:00[Europe/Berlin]",
+              "content": "Self-enabling 5th generation knowledge user",
+              "size": 43
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "non_autem.xlsx",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-06-18T20:31:36.528+02:00[Europe/Berlin]",
+              "content": "Centralized multi-state software",
+              "size": 32
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "perferendis_laboriosam.odp",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-05-28T22:11:22.512+02:00[Europe/Berlin]",
+              "content": "Ameliorated optimal monitoring",
+              "size": 30
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "accusamus_voluptas.jpeg",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-10-31T07:31:36.514+01:00[Europe/Berlin]",
+              "content": "Implemented 5th generation monitoring",
+              "size": 37
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "eum_sapiente.odt",
+              "isFolder": false,
+              "user": "os",
+              "created": "2022-02-02T10:36:19.522+01:00[Europe/Berlin]",
+              "content": "Open-source reciprocal firmware",
+              "size": 31
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "exercitationem_voluptatem.jpeg",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-12-13T04:09:23.742+01:00[Europe/Berlin]",
+              "content": "Upgradable neutral protocol",
+              "size": 27
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "amet_ut.ods",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-05-07T00:01:10.755+02:00[Europe/Berlin]",
+              "content": "Optimized motivating concept",
+              "size": 28
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "modi_velit.csv",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-09-25T08:52:50.723+02:00[Europe/Berlin]",
+              "content": "Advanced 4th generation moratorium",
+              "size": 34
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "cupiditate_similique.jpg",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-07-29T11:48:30.501+02:00[Europe/Berlin]",
+              "content": "Pre-emptive bandwidth-monitored Graphical User Interface",
+              "size": 56
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "consequuntur_quae.avi",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-03-28T04:59:07.984+02:00[Europe/Berlin]",
+              "content": "Distributed hybrid structure",
+              "size": 28
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "explicabo_consequatur.xls",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-05-24T13:56:54.855+02:00[Europe/Berlin]",
+              "content": "Re-contextualized systemic architecture",
+              "size": 39
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "quia_similique.avi",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-08-22T07:40:58.908+02:00[Europe/Berlin]",
+              "content": "Cross-group optimizing local area network",
+              "size": 41
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "eos_tempore.xlsx",
+              "isFolder": false,
+              "user": "os",
+              "created": "2022-01-20T14:46:32.276+01:00[Europe/Berlin]",
+              "content": "Ergonomic systemic open system",
+              "size": 30
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "ut_illum.bmp",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-03-27T08:13:47.313+01:00[Europe/Berlin]",
+              "content": "Polarised tangible implementation",
+              "size": 33
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "eum_facilis.mov",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-10-13T08:37:17.093+02:00[Europe/Berlin]",
+              "content": "Universal incremental productivity",
+              "size": 34
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "quis_libero.csv",
+              "isFolder": false,
+              "user": "os",
+              "created": "2022-01-23T04:15:58.502+01:00[Europe/Berlin]",
+              "content": "Fully-configurable heuristic function",
+              "size": 37
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "omnis_qui.jpg",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-11-24T03:39:03.483+01:00[Europe/Berlin]",
+              "content": "Compatible radical approach",
+              "size": 27
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "sunt_sapiente.tiff",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-08-06T06:49:20.902+02:00[Europe/Berlin]",
+              "content": "Monitored directional support",
+              "size": 29
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "corrupti_quia.json",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-08-16T03:56:47.923+02:00[Europe/Berlin]",
+              "content": "Adaptive value-added benchmark",
+              "size": 30
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "voluptatem_itaque.jpeg",
+              "isFolder": false,
+              "user": "os",
+              "created": "2022-01-30T15:24:56.555+01:00[Europe/Berlin]",
+              "content": "Inverse optimizing intranet",
+              "size": 27
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "et_asperiores.html",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-09-26T02:35:21.830+02:00[Europe/Berlin]",
+              "content": "Object-based full-range standardization",
+              "size": 39
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "maxime_aliquam.jpeg",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-08-03T19:40:45.118+02:00[Europe/Berlin]",
+              "content": "Open-architected actuating challenge",
+              "size": 36
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "et_veniam.txt",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-10-02T00:44:57.083+02:00[Europe/Berlin]",
+              "content": "Fundamental stable ability",
+              "size": 26
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "aut_debitis.key",
+              "isFolder": false,
+              "user": "os",
+              "created": "2022-03-03T00:05:24.902+01:00[Europe/Berlin]",
+              "content": "Digitized background workforce",
+              "size": 30
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "tenetur_et.avi",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-11-11T21:38:21.347+01:00[Europe/Berlin]",
+              "content": "Triple-buffered system-worthy frame",
+              "size": 35
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "libero_quia.json",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-11-21T14:18:10.028+01:00[Europe/Berlin]",
+              "content": "Future-proofed even-keeled support",
+              "size": 34
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "dicta_aperiam.wav",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-09-19T06:06:02.526+02:00[Europe/Berlin]",
+              "content": "Automated grid-enabled secured line",
+              "size": 35
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "voluptatem_sed.gif",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-07-11T20:49:28.120+02:00[Europe/Berlin]",
+              "content": "Up-sized encompassing algorithm",
+              "size": 31
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "molestiae_possimus.wav",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-09-22T05:46:50.503+02:00[Europe/Berlin]",
+              "content": "Compatible secondary help-desk",
+              "size": 30
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "reiciendis_culpa.xlsx",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-09-04T14:06:33.927+02:00[Europe/Berlin]",
+              "content": "Compatible upward-trending challenge",
+              "size": 36
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "ad_dolores.txt",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-09-23T04:32:20.962+02:00[Europe/Berlin]",
+              "content": "Right-sized clear-thinking intranet",
+              "size": 35
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "dolorem_sed.key",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-11-14T16:10:26.867+01:00[Europe/Berlin]",
+              "content": "Stand-alone tangible neural-net",
+              "size": 31
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "minus_ut.wav",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-11-14T19:20:19.405+01:00[Europe/Berlin]",
+              "content": "Optional homogeneous matrices",
+              "size": 29
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "aliquid_minus.css",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-12-02T14:13:57.385+01:00[Europe/Berlin]",
+              "content": "Operative 24 hour emulation",
+              "size": 27
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "ratione_sint.docx",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-10-17T05:48:03.375+02:00[Europe/Berlin]",
+              "content": "Synergistic next generation methodology",
+              "size": 39
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "et_nulla.json",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-11-14T16:03:05.084+01:00[Europe/Berlin]",
+              "content": "Networked exuding protocol",
+              "size": 26
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "aliquid_voluptatibus.csv",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-12-24T14:41:33.951+01:00[Europe/Berlin]",
+              "content": "Robust web-enabled project",
+              "size": 26
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "optio_quia.webm",
+              "isFolder": false,
+              "user": "os",
+              "created": "2022-03-03T13:05:42.599+01:00[Europe/Berlin]",
+              "content": "Profound bifurcated approach",
+              "size": 28
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "omnis_eveniet.gif",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-08-13T19:57:27.748+02:00[Europe/Berlin]",
+              "content": "Re-engineered intangible initiative",
+              "size": 35
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "iusto_esse.gif",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-08-26T01:47:52.259+02:00[Europe/Berlin]",
+              "content": "User-friendly high-level knowledge base",
+              "size": 39
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "iusto_quae.tiff",
+              "isFolder": false,
+              "user": "os",
+              "created": "2022-01-21T01:48:06.633+01:00[Europe/Berlin]",
+              "content": "Reactive bandwidth-monitored capability",
+              "size": 39
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "est_nostrum.html",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-12-01T10:47:10.335+01:00[Europe/Berlin]",
+              "content": "Optimized motivating knowledge base",
+              "size": 35
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "quas_iste.jpg",
+              "isFolder": false,
+              "user": "os",
+              "created": "2022-01-12T10:59:27.328+01:00[Europe/Berlin]",
+              "content": "Sharable impactful model",
+              "size": 24
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "quasi_omnis.ods",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-06-13T04:13:13.400+02:00[Europe/Berlin]",
+              "content": "Enterprise-wide fault-tolerant projection",
+              "size": 41
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "neque_similique.odp",
+              "isFolder": false,
+              "user": "os",
+              "created": "2022-03-06T03:36:25.128+01:00[Europe/Berlin]",
+              "content": "Triple-buffered zero tolerance challenge",
+              "size": 40
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "magni_animi.png",
+              "isFolder": false,
+              "user": "os",
+              "created": "2022-03-10T06:37:18.056+01:00[Europe/Berlin]",
+              "content": "Future-proofed discrete parallelism",
+              "size": 35
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "tempore_eligendi.avi",
+              "isFolder": false,
+              "user": "os",
+              "created": "2022-01-27T11:18:35.011+01:00[Europe/Berlin]",
+              "content": "Multi-lateral upward-trending solution",
+              "size": 38
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "tempora_non.gif",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-08-31T09:07:54.100+02:00[Europe/Berlin]",
+              "content": "Inverse explicit policy",
+              "size": 23
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "delectus_quia.png",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-10-09T06:52:48.950+02:00[Europe/Berlin]",
+              "content": "Customer-focused 3rd generation installation",
+              "size": 44
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "nihil_at.odt",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-11-06T14:57:18.545+01:00[Europe/Berlin]",
+              "content": "Synergized client-server portal",
+              "size": 31
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "doloribus_ea.avi",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-07-10T23:22:49.395+02:00[Europe/Berlin]",
+              "content": "Implemented executive info-mediaries",
+              "size": 36
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "quae_odio.docx",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-09-03T00:17:43.674+02:00[Europe/Berlin]",
+              "content": "Front-line directional firmware",
+              "size": 31
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "et_aliquid.numbers",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-12-01T14:35:56.268+01:00[Europe/Berlin]",
+              "content": "Re-contextualized reciprocal collaboration",
+              "size": 42
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "quis_aliquid.pptx",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-07-30T08:46:31.095+02:00[Europe/Berlin]",
+              "content": "Advanced object-oriented emulation",
+              "size": 34
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "maxime_sed.jpg",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-09-19T10:47:08.326+02:00[Europe/Berlin]",
+              "content": "Sharable transitional open architecture",
+              "size": 39
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "quis_qui.jpeg",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-11-21T02:42:43.315+01:00[Europe/Berlin]",
+              "content": "Open-source actuating superstructure",
+              "size": 36
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "qui_tempora.bmp",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-10-23T01:08:21.325+02:00[Europe/Berlin]",
+              "content": "Seamless needs-based infrastructure",
+              "size": 35
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "rerum_voluptate.jpeg",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-06-25T06:38:40.795+02:00[Europe/Berlin]",
+              "content": "Visionary 5th generation pricing structure",
+              "size": 42
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "totam_voluptates.doc",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-05-17T01:14:03.820+02:00[Europe/Berlin]",
+              "content": "Business-focused tangible Graphic Interface",
+              "size": 43
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "rem_maiores.pdf",
+              "isFolder": false,
+              "user": "os",
+              "created": "2022-03-11T18:40:54.868+01:00[Europe/Berlin]",
+              "content": "Future-proofed multimedia concept",
+              "size": 33
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "voluptatibus_quidem.xls",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-10-01T10:31:51.868+02:00[Europe/Berlin]",
+              "content": "Function-based actuating encryption",
+              "size": 35
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "placeat_eum.csv",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-11-26T17:50:51.390+01:00[Europe/Berlin]",
+              "content": "De-engineered dynamic utilisation",
+              "size": 33
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "sit_voluptas.xls",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-12-07T07:02:55.951+01:00[Europe/Berlin]",
+              "content": "Organic mobile customer loyalty",
+              "size": 31
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "doloremque_tempora.avi",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-10-01T03:39:09.182+02:00[Europe/Berlin]",
+              "content": "Customer-focused attitude-oriented forecast",
+              "size": 43
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "at_expedita.pages",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-12-09T20:48:34.669+01:00[Europe/Berlin]",
+              "content": "Cross-platform coherent Graphical User Interface",
+              "size": 48
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "quasi_ipsum.xls",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-11-11T17:13:32.249+01:00[Europe/Berlin]",
+              "content": "Reactive fault-tolerant superstructure",
+              "size": 38
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "magni_et.pptx",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-12-21T02:33:08.965+01:00[Europe/Berlin]",
+              "content": "Horizontal 24/7 focus group",
+              "size": 27
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "autem_autem.ods",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-12-02T23:00:16.064+01:00[Europe/Berlin]",
+              "content": "Mandatory 24/7 conglomeration",
+              "size": 29
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "quas_beatae.mp3",
+              "isFolder": false,
+              "user": "os",
+              "created": "2022-02-18T13:46:47.987+01:00[Europe/Berlin]",
+              "content": "Phased real-time toolset",
+              "size": 24
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "placeat_suscipit.odp",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-03-27T17:45:28.730+01:00[Europe/Berlin]",
+              "content": "Open-source systemic algorithm",
+              "size": 30
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "quisquam_assumenda.odt",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-09-28T02:25:29.586+02:00[Europe/Berlin]",
+              "content": "Compatible tertiary alliance",
+              "size": 28
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "ducimus_necessitatibus.odt",
+              "isFolder": false,
+              "user": "os",
+              "created": "2022-03-08T09:28:51.237+01:00[Europe/Berlin]",
+              "content": "Assimilated actuating standardization",
+              "size": 37
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "dicta_earum.pages",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-04-19T14:25:59.902+02:00[Europe/Berlin]",
+              "content": "Fully-configurable empowering hierarchy",
+              "size": 39
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "sit_dolore.png",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-03-31T11:46:55.864+02:00[Europe/Berlin]",
+              "content": "Synergized demand-driven array",
+              "size": 30
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "corporis_modi.xls",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-08-02T13:00:26.010+02:00[Europe/Berlin]",
+              "content": "Mandatory background function",
+              "size": 29
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "aliquam_provident.key",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-04-10T19:09:41.137+02:00[Europe/Berlin]",
+              "content": "Fundamental upward-trending framework",
+              "size": 37
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "aut_in.xlsx",
+              "isFolder": false,
+              "user": "os",
+              "created": "2022-02-08T19:43:46.983+01:00[Europe/Berlin]",
+              "content": "Ameliorated analyzing alliance",
+              "size": 30
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "necessitatibus_et.pages",
+              "isFolder": false,
+              "user": "os",
+              "created": "2022-02-03T00:14:23.407+01:00[Europe/Berlin]",
+              "content": "Customizable encompassing middleware",
+              "size": 36
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "rerum_et.xlsx",
+              "isFolder": false,
+              "user": "os",
+              "created": "2022-02-03T16:09:04.595+01:00[Europe/Berlin]",
+              "content": "Assimilated fresh-thinking orchestration",
+              "size": 40
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "quia_itaque.odp",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-06-08T12:11:51.662+02:00[Europe/Berlin]",
+              "content": "Seamless dedicated attitude",
+              "size": 27
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "ullam_quia.txt",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-12-03T20:30:05.765+01:00[Europe/Berlin]",
+              "content": "Integrated 24/7 Graphical User Interface",
+              "size": 40
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "aliquid_nam.wav",
+              "isFolder": false,
+              "user": "os",
+              "created": "2022-01-22T06:35:05.421+01:00[Europe/Berlin]",
+              "content": "Polarised zero tolerance matrix",
+              "size": 31
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "earum_soluta.key",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-05-20T15:20:45.288+02:00[Europe/Berlin]",
+              "content": "Switchable full-range application",
+              "size": 33
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "cumque_consectetur.js",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-12-01T07:41:43.356+01:00[Europe/Berlin]",
+              "content": "De-engineered 3rd generation protocol",
+              "size": 37
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "illo_quam.csv",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-05-28T06:40:23.290+02:00[Europe/Berlin]",
+              "content": "Face to face homogeneous framework",
+              "size": 34
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "temporibus_beatae.pages",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-04-11T14:44:23.808+02:00[Europe/Berlin]",
+              "content": "Re-contextualized scalable adapter",
+              "size": 34
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "dolorem_accusantium.odp",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-07-16T05:27:35.795+02:00[Europe/Berlin]",
+              "content": "Persevering 4th generation Graphic Interface",
+              "size": 44
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "consequatur_blanditiis.mov",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-06-11T18:57:46.073+02:00[Europe/Berlin]",
+              "content": "Balanced 5th generation instruction set",
+              "size": 39
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "voluptas_rem.xls",
+              "isFolder": false,
+              "user": "os",
+              "created": "2022-01-01T13:45:51.914+01:00[Europe/Berlin]",
+              "content": "Customer-focused motivating infrastructure",
+              "size": 42
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "aut_occaecati.doc",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-12-14T17:05:25.909+01:00[Europe/Berlin]",
+              "content": "Cross-platform system-worthy ability",
+              "size": 36
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "ullam_corrupti.pptx",
+              "isFolder": false,
+              "user": "os",
+              "created": "2022-03-04T00:03:39.716+01:00[Europe/Berlin]",
+              "content": "Inverse zero defect website",
+              "size": 27
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "distinctio_eveniet.flac",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-05-09T18:36:14.380+02:00[Europe/Berlin]",
+              "content": "Sharable encompassing task-force",
+              "size": 32
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "vero_quidem.wav",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-06-21T20:52:29.793+02:00[Europe/Berlin]",
+              "content": "Function-based actuating database",
+              "size": 33
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "excepturi_est.json",
+              "isFolder": false,
+              "user": "os",
+              "created": "2022-01-06T06:39:43.304+01:00[Europe/Berlin]",
+              "content": "Cross-platform fault-tolerant projection",
+              "size": 40
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "velit_deserunt.js",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-10-09T22:05:47.131+02:00[Europe/Berlin]",
+              "content": "User-centric optimal data-warehouse",
+              "size": 35
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "distinctio_fugit.jpeg",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-08-21T02:14:07.822+02:00[Europe/Berlin]",
+              "content": "Object-based client-driven success",
+              "size": 34
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "tempora_natus.ppt",
+              "isFolder": false,
+              "user": "os",
+              "created": "2022-02-19T16:22:09.175+01:00[Europe/Berlin]",
+              "content": "User-friendly web-enabled projection",
+              "size": 36
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "a_vero.js",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-05-30T13:56:27.882+02:00[Europe/Berlin]",
+              "content": "Diverse 5th generation architecture",
+              "size": 35
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "occaecati_libero.ppt",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-12-11T08:43:57.663+01:00[Europe/Berlin]",
+              "content": "Right-sized upward-trending task-force",
+              "size": 38
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "aut_eius.css",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-07-15T07:46:04.666+02:00[Europe/Berlin]",
+              "content": "Object-based systematic parallelism",
+              "size": 35
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "quod_quae.html",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-05-25T22:27:43.718+02:00[Europe/Berlin]",
+              "content": "Focused actuating Graphic Interface",
+              "size": 35
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "at_soluta.flac",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-10-06T19:44:34.199+02:00[Europe/Berlin]",
+              "content": "Focused systematic strategy",
+              "size": 27
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "a_laboriosam.webm",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-04-15T08:29:02.156+02:00[Europe/Berlin]",
+              "content": "Universal high-level application",
+              "size": 32
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "doloremque_quos.pptx",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-06-16T22:18:33.507+02:00[Europe/Berlin]",
+              "content": "Upgradable tangible challenge",
+              "size": 29
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "qui_tempore.wav",
+              "isFolder": false,
+              "user": "os",
+              "created": "2022-03-02T21:01:00.374+01:00[Europe/Berlin]",
+              "content": "Realigned mission-critical workforce",
+              "size": 36
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "animi_tempore.csv",
+              "isFolder": false,
+              "user": "os",
+              "created": "2022-02-22T09:30:33.380+01:00[Europe/Berlin]",
+              "content": "User-centric web-enabled website",
+              "size": 32
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "molestias_cum.css",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-11-05T13:13:26.995+01:00[Europe/Berlin]",
+              "content": "Intuitive static encoding",
+              "size": 25
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "modi_architecto.webm",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-09-23T23:04:35.708+02:00[Europe/Berlin]",
+              "content": "Total upward-trending projection",
+              "size": 32
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "rerum_tempora.odp",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-05-22T01:45:11.274+02:00[Europe/Berlin]",
+              "content": "Secured mobile standardization",
+              "size": 30
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "at_nihil.flac",
+              "isFolder": false,
+              "user": "os",
+              "created": "2022-02-19T01:50:33.650+01:00[Europe/Berlin]",
+              "content": "Open-architected zero defect open architecture",
+              "size": 46
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "est_voluptatem.xlsx",
+              "isFolder": false,
+              "user": "os",
+              "created": "2022-02-07T12:44:28.464+01:00[Europe/Berlin]",
+              "content": "Persevering coherent attitude",
+              "size": 29
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "qui_dicta.key",
+              "isFolder": false,
+              "user": "os",
+              "created": "2022-02-22T22:53:00.494+01:00[Europe/Berlin]",
+              "content": "Versatile even-keeled superstructure",
+              "size": 36
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "et_ipsam.gif",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-05-31T00:48:36.918+02:00[Europe/Berlin]",
+              "content": "Proactive systematic complexity",
+              "size": 31
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "perspiciatis_qui.json",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-07-14T09:33:35.834+02:00[Europe/Berlin]",
+              "content": "Right-sized stable circuit",
+              "size": 26
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "odio_placeat.numbers",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-06-29T20:53:45.261+02:00[Europe/Berlin]",
+              "content": "Balanced eco-centric superstructure",
+              "size": 35
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "sint_sed.png",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-09-10T03:38:05.983+02:00[Europe/Berlin]",
+              "content": "Total 4th generation flexibility",
+              "size": 32
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "similique_qui.odt",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-08-05T14:34:46.096+02:00[Europe/Berlin]",
+              "content": "Centralized client-server definition",
+              "size": 36
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "accusamus_quos.xls",
+              "isFolder": false,
+              "user": "os",
+              "created": "2022-02-28T18:49:19.367+01:00[Europe/Berlin]",
+              "content": "Reactive multi-tasking knowledge base",
+              "size": 37
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "et_velit.jpeg",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-09-22T18:45:56.982+02:00[Europe/Berlin]",
+              "content": "Organized executive hardware",
+              "size": 28
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "in_voluptate.ods",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-07-06T19:22:30.989+02:00[Europe/Berlin]",
+              "content": "Function-based neutral encoding",
+              "size": 31
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "est_ipsa.tiff",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-04-27T12:54:45.550+02:00[Europe/Berlin]",
+              "content": "Virtual contextually-based protocol",
+              "size": 35
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "ratione_voluptatem.js",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-09-06T17:16:22.335+02:00[Europe/Berlin]",
+              "content": "Open-source mission-critical alliance",
+              "size": 37
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "et_dolores.key",
+              "isFolder": false,
+              "user": "os",
+              "created": "2022-01-05T18:45:55.659+01:00[Europe/Berlin]",
+              "content": "Universal heuristic hierarchy",
+              "size": 29
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "repudiandae_alias.json",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-10-30T18:48:23.611+02:00[Europe/Berlin]",
+              "content": "Visionary attitude-oriented matrix",
+              "size": 34
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "laboriosam_qui.csv",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-09-22T05:51:33.075+02:00[Europe/Berlin]",
+              "content": "Mandatory bandwidth-monitored architecture",
+              "size": 42
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "tenetur_quis.xls",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-09-18T02:40:06.512+02:00[Europe/Berlin]",
+              "content": "Front-line attitude-oriented array",
+              "size": 34
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "quis_aut.ods",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-10-11T17:56:16.630+02:00[Europe/Berlin]",
+              "content": "Configurable asynchronous hub",
+              "size": 29
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "dolorum_ut.tiff",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-04-18T00:26:03.053+02:00[Europe/Berlin]",
+              "content": "Managed dedicated conglomeration",
+              "size": 32
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "dolorem_tempore.ppt",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-08-06T20:04:48.883+02:00[Europe/Berlin]",
+              "content": "Re-contextualized homogeneous conglomeration",
+              "size": 44
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "illum_vitae.ppt",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-04-22T21:47:56.251+02:00[Europe/Berlin]",
+              "content": "Focused static forecast",
+              "size": 23
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "fuga_mollitia.doc",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-11-16T08:39:50.017+01:00[Europe/Berlin]",
+              "content": "Seamless responsive flexibility",
+              "size": 31
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "ut_repellat.odt",
+              "isFolder": false,
+              "user": "os",
+              "created": "2022-02-27T01:37:12.547+01:00[Europe/Berlin]",
+              "content": "Switchable national productivity",
+              "size": 32
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "ipsam_sed.mp4",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-07-15T15:11:08.554+02:00[Europe/Berlin]",
+              "content": "Upgradable uniform open architecture",
+              "size": 36
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "aut_sed.xls",
+              "isFolder": false,
+              "user": "os",
+              "created": "2022-03-03T05:52:25.131+01:00[Europe/Berlin]",
+              "content": "Team-oriented real-time database",
+              "size": 32
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "est_temporibus.json",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-07-10T19:22:44.277+02:00[Europe/Berlin]",
+              "content": "Monitored even-keeled local area network",
+              "size": 40
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "iste_non.css",
+              "isFolder": false,
+              "user": "os",
+              "created": "2022-02-05T08:32:41.138+01:00[Europe/Berlin]",
+              "content": "Fundamental object-oriented protocol",
+              "size": 36
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "rerum_saepe.png",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-09-04T08:40:47.832+02:00[Europe/Berlin]",
+              "content": "Switchable next generation orchestration",
+              "size": 40
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "et_eum.flac",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-06-17T14:10:45.699+02:00[Europe/Berlin]",
+              "content": "Decentralized transitional knowledge base",
+              "size": 41
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "et_qui.numbers",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-11-19T09:25:50.055+01:00[Europe/Berlin]",
+              "content": "Proactive tangible synergy",
+              "size": 26
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "id_quia.ppt",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-08-22T15:57:42.162+02:00[Europe/Berlin]",
+              "content": "Grass-roots non-volatile model",
+              "size": 30
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "consequatur_esse.flac",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-09-17T09:03:46.216+02:00[Europe/Berlin]",
+              "content": "Secured zero administration solution",
+              "size": 36
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "repellendus_nemo.css",
+              "isFolder": false,
+              "user": "os",
+              "created": "2022-02-01T17:00:47.328+01:00[Europe/Berlin]",
+              "content": "Expanded analyzing solution",
+              "size": 27
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "occaecati_quo.mp4",
+              "isFolder": false,
+              "user": "os",
+              "created": "2022-01-15T10:05:01.495+01:00[Europe/Berlin]",
+              "content": "Distributed asymmetric productivity",
+              "size": 35
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "recusandae_quibusdam.pages",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-12-22T04:38:48.581+01:00[Europe/Berlin]",
+              "content": "Adaptive well-modulated intranet",
+              "size": 32
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "deleniti_repellat.json",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-04-14T15:35:06.181+02:00[Europe/Berlin]",
+              "content": "Operative background contingency",
+              "size": 32
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "veritatis_est.mp4",
+              "isFolder": false,
+              "user": "os",
+              "created": "2022-02-24T17:44:57.386+01:00[Europe/Berlin]",
+              "content": "Seamless zero administration synergy",
+              "size": 36
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "dolor_qui.mp4",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-12-01T18:32:46.715+01:00[Europe/Berlin]",
+              "content": "Horizontal static hub",
+              "size": 21
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "doloribus_cum.webm",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-08-10T03:16:24.085+02:00[Europe/Berlin]",
+              "content": "Open-source executive knowledge user",
+              "size": 36
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "reprehenderit_at.pptx",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-09-30T00:38:49.546+02:00[Europe/Berlin]",
+              "content": "Universal zero defect focus group",
+              "size": 33
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "nisi_est.csv",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-05-02T15:08:08.090+02:00[Europe/Berlin]",
+              "content": "Future-proofed bottom-line collaboration",
+              "size": 40
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "consequatur_numquam.mp4",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-04-20T09:21:17.972+02:00[Europe/Berlin]",
+              "content": "Open-architected dedicated knowledge base",
+              "size": 41
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "vero_tempora.flac",
+              "isFolder": false,
+              "user": "os",
+              "created": "2022-01-02T04:47:37.670+01:00[Europe/Berlin]",
+              "content": "Profound user-facing adapter",
+              "size": 28
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "ea_aliquid.odp",
+              "isFolder": false,
+              "user": "os",
+              "created": "2022-01-02T14:14:58.821+01:00[Europe/Berlin]",
+              "content": "Monitored 3rd generation implementation",
+              "size": 39
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "tempora_inventore.ppt",
+              "isFolder": false,
+              "user": "os",
+              "created": "2022-02-01T02:06:59.269+01:00[Europe/Berlin]",
+              "content": "Innovative attitude-oriented standardization",
+              "size": 44
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "eos_sit.pages",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-06-27T18:42:42.495+02:00[Europe/Berlin]",
+              "content": "Progressive homogeneous core",
+              "size": 28
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "similique_vero.html",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-12-10T11:34:15.297+01:00[Europe/Berlin]",
+              "content": "Exclusive static support",
+              "size": 24
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "qui_voluptatum.flac",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-03-27T02:00:58.123+01:00[Europe/Berlin]",
+              "content": "Phased intangible core",
+              "size": 22
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "accusantium_dolorem.flac",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-12-11T18:21:15.144+01:00[Europe/Berlin]",
+              "content": "Optional high-level secured line",
+              "size": 32
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "nobis_explicabo.pdf",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-08-19T08:13:35.433+02:00[Europe/Berlin]",
+              "content": "De-engineered executive benchmark",
+              "size": 33
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "quis_rerum.doc",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-09-10T15:59:42.892+02:00[Europe/Berlin]",
+              "content": "Progressive 4th generation circuit",
+              "size": 34
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "qui_et.bmp",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-10-28T09:18:49.857+02:00[Europe/Berlin]",
+              "content": "Distributed background project",
+              "size": 30
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "debitis_eos.pages",
+              "isFolder": false,
+              "user": "os",
+              "created": "2022-01-23T15:34:32.900+01:00[Europe/Berlin]",
+              "content": "Re-contextualized optimizing throughput",
+              "size": 39
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "eius_voluptatem.ods",
+              "isFolder": false,
+              "user": "os",
+              "created": "2022-02-27T17:11:24.303+01:00[Europe/Berlin]",
+              "content": "Configurable grid-enabled success",
+              "size": 33
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "dignissimos_nisi.txt",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-06-08T04:59:26.210+02:00[Europe/Berlin]",
+              "content": "Monitored optimal database",
+              "size": 26
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "unde_aut.json",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-11-19T18:09:19.957+01:00[Europe/Berlin]",
+              "content": "Expanded multi-state extranet",
+              "size": 29
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "hic_ipsa.pptx",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-04-20T22:59:29.924+02:00[Europe/Berlin]",
+              "content": "Fundamental tangible concept",
+              "size": 28
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "autem_vitae.html",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-05-12T14:48:51.484+02:00[Europe/Berlin]",
+              "content": "Multi-lateral optimizing model",
+              "size": 30
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "ea_expedita.html",
+              "isFolder": false,
+              "user": "os",
+              "created": "2022-03-06T02:10:01.656+01:00[Europe/Berlin]",
+              "content": "Reverse-engineered context-sensitive Graphic Interface",
+              "size": 54
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "voluptatem_cupiditate.jpeg",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-08-12T01:35:48.937+02:00[Europe/Berlin]",
+              "content": "Cloned tangible matrix",
+              "size": 22
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "omnis_neque.xls",
+              "isFolder": false,
+              "user": "os",
+              "created": "2022-01-29T07:49:11.512+01:00[Europe/Berlin]",
+              "content": "Customizable transitional access",
+              "size": 32
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "ducimus_tenetur.tiff",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-09-28T10:26:35.777+02:00[Europe/Berlin]",
+              "content": "Cross-group fault-tolerant throughput",
+              "size": 37
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "perspiciatis_minima.pages",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-05-05T08:25:22.684+02:00[Europe/Berlin]",
+              "content": "Cross-platform optimal projection",
+              "size": 33
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "eos_est.numbers",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-08-21T12:36:39.540+02:00[Europe/Berlin]",
+              "content": "Upgradable disintermediate Graphic Interface",
+              "size": 44
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "et_impedit.jpeg",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-11-04T09:41:41.069+01:00[Europe/Berlin]",
+              "content": "Intuitive empowering structure",
+              "size": 30
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "blanditiis_ut.json",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-05-07T22:48:01.205+02:00[Europe/Berlin]",
+              "content": "Pre-emptive transitional info-mediaries",
+              "size": 39
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "nemo_fuga.jpeg",
+              "isFolder": false,
+              "user": "os",
+              "created": "2022-01-20T06:36:40.711+01:00[Europe/Berlin]",
+              "content": "Open-architected attitude-oriented benchmark",
+              "size": 44
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "illo_cum.key",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-07-23T23:06:32.333+02:00[Europe/Berlin]",
+              "content": "Profound bi-directional concept",
+              "size": 31
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "voluptatem_et.jpeg",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-05-03T05:26:11.947+02:00[Europe/Berlin]",
+              "content": "Innovative transitional framework",
+              "size": 33
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "id_qui.pptx",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-09-04T15:36:09.342+02:00[Europe/Berlin]",
+              "content": "Total 4th generation database",
+              "size": 29
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "magnam_error.mov",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-04-21T06:11:20.287+02:00[Europe/Berlin]",
+              "content": "Cross-platform fault-tolerant initiative",
+              "size": 40
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "totam_dicta.flac",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-05-21T13:06:50.328+02:00[Europe/Berlin]",
+              "content": "Profound national matrices",
+              "size": 26
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "et_ducimus.key",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-06-15T15:39:37.980+02:00[Europe/Berlin]",
+              "content": "Monitored value-added open architecture",
+              "size": 39
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "facilis_sed.pptx",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-05-06T07:21:04.952+02:00[Europe/Berlin]",
+              "content": "Innovative methodical paradigm",
+              "size": 30
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "perferendis_cupiditate.html",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-05-04T12:51:46.559+02:00[Europe/Berlin]",
+              "content": "Monitored multi-state system engine",
+              "size": 35
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "recusandae_saepe.js",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-09-27T10:35:29.008+02:00[Europe/Berlin]",
+              "content": "Profit-focused dedicated frame",
+              "size": 30
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "corporis_voluptatem.avi",
+              "isFolder": false,
+              "user": "os",
+              "created": "2022-02-12T13:33:37.862+01:00[Europe/Berlin]",
+              "content": "Innovative multi-tasking productivity",
+              "size": 37
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "qui_modi.js",
+              "isFolder": false,
+              "user": "os",
+              "created": "2022-01-06T21:12:36.504+01:00[Europe/Berlin]",
+              "content": "De-engineered scalable forecast",
+              "size": 31
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "exercitationem_nostrum.odp",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-12-13T20:10:20.382+01:00[Europe/Berlin]",
+              "content": "Customizable fault-tolerant architecture",
+              "size": 40
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "eveniet_id.tiff",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-07-13T03:38:33.438+02:00[Europe/Berlin]",
+              "content": "Grass-roots local adapter",
+              "size": 25
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "voluptatem_occaecati.webm",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-05-06T19:09:30.785+02:00[Europe/Berlin]",
+              "content": "Quality-focused hybrid challenge",
+              "size": 32
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "tempore_quo.ods",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-07-13T04:52:18.011+02:00[Europe/Berlin]",
+              "content": "Cross-platform 6th generation emulation",
+              "size": 39
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "velit_aliquam.doc",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-12-05T14:19:16.450+01:00[Europe/Berlin]",
+              "content": "Secured asynchronous extranet",
+              "size": 29
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "pariatur_voluptatem.html",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-10-07T00:51:55.460+02:00[Europe/Berlin]",
+              "content": "Intuitive reciprocal middleware",
+              "size": 31
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "molestias_est.pages",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-08-19T02:32:39.535+02:00[Europe/Berlin]",
+              "content": "Switchable zero tolerance infrastructure",
+              "size": 40
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "fugiat_error.json",
+              "isFolder": false,
+              "user": "os",
+              "created": "2022-02-17T15:18:17.458+01:00[Europe/Berlin]",
+              "content": "Fundamental actuating intranet",
+              "size": 30
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "magnam_minus.webm",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-10-30T19:12:18.606+02:00[Europe/Berlin]",
+              "content": "Profound responsive alliance",
+              "size": 28
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "fugit_sapiente.pdf",
+              "isFolder": false,
+              "user": "os",
+              "created": "2022-02-15T11:45:15.975+01:00[Europe/Berlin]",
+              "content": "Sharable stable project",
+              "size": 23
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "sequi_illum.ods",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-08-03T10:48:50.387+02:00[Europe/Berlin]",
+              "content": "Fully-configurable client-driven archive",
+              "size": 40
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "totam_modi.mov",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-11-06T10:09:54.787+01:00[Europe/Berlin]",
+              "content": "Fully-configurable interactive flexibility",
+              "size": 42
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "minus_occaecati.pptx",
+              "isFolder": false,
+              "user": "os",
+              "created": "2022-03-03T08:18:59.797+01:00[Europe/Berlin]",
+              "content": "Pre-emptive asymmetric internet solution",
+              "size": 40
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "vel_explicabo.jpeg",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-07-17T01:39:45.474+02:00[Europe/Berlin]",
+              "content": "Advanced methodical analyzer",
+              "size": 28
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "corrupti_suscipit.ods",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-12-28T19:48:35.930+01:00[Europe/Berlin]",
+              "content": "Enterprise-wide 24/7 circuit",
+              "size": 28
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "blanditiis_illo.xls",
+              "isFolder": false,
+              "user": "os",
+              "created": "2022-03-12T11:13:22.069+01:00[Europe/Berlin]",
+              "content": "Innovative tertiary process improvement",
+              "size": 39
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "asperiores_corporis.numbers",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-09-15T10:25:21.716+02:00[Europe/Berlin]",
+              "content": "Optimized homogeneous budgetary management",
+              "size": 42
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "enim_et.js",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-09-14T11:48:01.991+02:00[Europe/Berlin]",
+              "content": "Networked dedicated toolset",
+              "size": 27
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "qui_aut.xlsx",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-11-23T23:08:35.314+01:00[Europe/Berlin]",
+              "content": "Distributed actuating implementation",
+              "size": 36
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "voluptatum_necessitatibus.tiff",
+              "isFolder": false,
+              "user": "os",
+              "created": "2022-02-14T21:44:03.999+01:00[Europe/Berlin]",
+              "content": "Expanded optimizing database",
+              "size": 28
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "inventore_voluptas.csv",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-11-26T03:00:33.729+01:00[Europe/Berlin]",
+              "content": "Cross-group bottom-line definition",
+              "size": 34
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "amet_qui.jpg",
+              "isFolder": false,
+              "user": "os",
+              "created": "2022-01-02T11:27:04.799+01:00[Europe/Berlin]",
+              "content": "Optional 6th generation success",
+              "size": 31
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "aut_corrupti.odp",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-12-22T14:30:20.647+01:00[Europe/Berlin]",
+              "content": "Decentralized user-facing process improvement",
+              "size": 45
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "odit_et.key",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-05-11T02:10:57.730+02:00[Europe/Berlin]",
+              "content": "Team-oriented interactive internet solution",
+              "size": 43
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "est_minima.pages",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-06-09T00:35:18.410+02:00[Europe/Berlin]",
+              "content": "Universal impactful matrix",
+              "size": 26
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "delectus_est.xlsx",
+              "isFolder": false,
+              "user": "os",
+              "created": "2022-01-14T22:39:50.293+01:00[Europe/Berlin]",
+              "content": "Customer-focused static capacity",
+              "size": 32
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "tempora_voluptatibus.doc",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-12-03T13:17:18.545+01:00[Europe/Berlin]",
+              "content": "Public-key client-driven alliance",
+              "size": 33
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "fugiat_illo.docx",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-05-18T01:02:57.148+02:00[Europe/Berlin]",
+              "content": "User-friendly interactive collaboration",
+              "size": 39
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "qui_quisquam.json",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-08-21T04:23:58.005+02:00[Europe/Berlin]",
+              "content": "Sharable even-keeled software",
+              "size": 29
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "voluptatem_nemo.ppt",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-06-30T19:32:01.988+02:00[Europe/Berlin]",
+              "content": "Streamlined client-server secured line",
+              "size": 38
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "ut_consequatur.gif",
+              "isFolder": false,
+              "user": "os",
+              "created": "2022-03-11T02:05:30.577+01:00[Europe/Berlin]",
+              "content": "Phased explicit data-warehouse",
+              "size": 30
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "ipsum_blanditiis.xls",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-05-05T14:46:21.277+02:00[Europe/Berlin]",
+              "content": "Public-key national model",
+              "size": 25
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "ea_fuga.pages",
+              "isFolder": false,
+              "user": "os",
+              "created": "2022-01-02T01:34:43.038+01:00[Europe/Berlin]",
+              "content": "Ameliorated impactful success",
+              "size": 29
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "asperiores_hic.odt",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-12-06T10:40:58.927+01:00[Europe/Berlin]",
+              "content": "Secured static pricing structure",
+              "size": 32
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "eos_beatae.ppt",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-05-08T06:21:25.967+02:00[Europe/Berlin]",
+              "content": "Organized 3rd generation approach",
+              "size": 33
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "iusto_placeat.wav",
+              "isFolder": false,
+              "user": "os",
+              "created": "2022-01-19T17:40:06.749+01:00[Europe/Berlin]",
+              "content": "Innovative high-level open architecture",
+              "size": 39
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "est_repellendus.jpeg",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-05-07T23:39:16.142+02:00[Europe/Berlin]",
+              "content": "Phased cohesive capacity",
+              "size": 24
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "id_mollitia.wav",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-11-30T21:29:22.006+01:00[Europe/Berlin]",
+              "content": "Vision-oriented next generation system engine",
+              "size": 45
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "in_qui.webm",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-09-19T14:34:02.104+02:00[Europe/Berlin]",
+              "content": "Assimilated content-based instruction set",
+              "size": 41
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "aut_nihil.odp",
+              "isFolder": false,
+              "user": "os",
+              "created": "2022-03-14T20:28:36.854+01:00[Europe/Berlin]",
+              "content": "Operative dynamic contingency",
+              "size": 29
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "quia_rerum.docx",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-07-14T18:06:50.079+02:00[Europe/Berlin]",
+              "content": "Devolved heuristic implementation",
+              "size": 33
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "beatae_ipsam.odt",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-05-13T12:21:21.878+02:00[Europe/Berlin]",
+              "content": "Stand-alone methodical internet solution",
+              "size": 40
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "quia_facilis.pptx",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-04-24T00:50:34.127+02:00[Europe/Berlin]",
+              "content": "Phased system-worthy product",
+              "size": 28
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "cupiditate_enim.css",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-09-30T13:45:17.466+02:00[Europe/Berlin]",
+              "content": "Robust encompassing analyzer",
+              "size": 28
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "saepe_velit.gif",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-07-15T19:35:46.672+02:00[Europe/Berlin]",
+              "content": "Function-based systematic solution",
+              "size": 34
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "cupiditate_autem.key",
+              "isFolder": false,
+              "user": "os",
+              "created": "2022-02-19T09:37:56.232+01:00[Europe/Berlin]",
+              "content": "Organized coherent encoding",
+              "size": 27
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "ut_nesciunt.wav",
+              "isFolder": false,
+              "user": "os",
+              "created": "2022-03-09T18:54:08.195+01:00[Europe/Berlin]",
+              "content": "Triple-buffered local frame",
+              "size": 27
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "ducimus_dolores.csv",
+              "isFolder": false,
+              "user": "os",
+              "created": "2022-02-18T17:14:43.215+01:00[Europe/Berlin]",
+              "content": "Configurable didactic help-desk",
+              "size": 31
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "autem_consequuntur.wav",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-05-08T11:34:48.139+02:00[Europe/Berlin]",
+              "content": "Object-based impactful moderator",
+              "size": 32
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "qui_nihil.png",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-06-14T13:31:51.141+02:00[Europe/Berlin]",
+              "content": "Persevering disintermediate customer loyalty",
+              "size": 44
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "sint_commodi.pptx",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-10-17T04:08:12.387+02:00[Europe/Berlin]",
+              "content": "De-engineered secondary capability",
+              "size": 34
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "nobis_autem.mp3",
+              "isFolder": false,
+              "user": "os",
+              "created": "2022-02-26T15:34:49.595+01:00[Europe/Berlin]",
+              "content": "Profound 4th generation frame",
+              "size": 29
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "architecto_corrupti.odp",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-06-10T07:35:58.707+02:00[Europe/Berlin]",
+              "content": "Visionary cohesive help-desk",
+              "size": 28
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "id_repudiandae.tiff",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-04-20T17:18:07.999+02:00[Europe/Berlin]",
+              "content": "Cross-group global matrices",
+              "size": 27
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "vel_ut.jpeg",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-04-14T03:30:44.943+02:00[Europe/Berlin]",
+              "content": "User-friendly methodical initiative",
+              "size": 35
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "molestiae_minima.bmp",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-07-21T11:40:54.325+02:00[Europe/Berlin]",
+              "content": "Synchronised upward-trending application",
+              "size": 40
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "asperiores_optio.pdf",
+              "isFolder": false,
+              "user": "os",
+              "created": "2022-01-25T20:01:43.174+01:00[Europe/Berlin]",
+              "content": "Diverse reciprocal local area network",
+              "size": 37
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "id_rerum.jpg",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-09-25T11:56:10.422+02:00[Europe/Berlin]",
+              "content": "Cross-platform radical website",
+              "size": 30
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "facilis_sint.html",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-04-27T12:11:43.341+02:00[Europe/Berlin]",
+              "content": "Organized bandwidth-monitored attitude",
+              "size": 38
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "tempora_nihil.css",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-06-29T15:14:15.792+02:00[Europe/Berlin]",
+              "content": "Realigned asymmetric internet solution",
+              "size": 38
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "ea_aut.mp3",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-12-03T01:36:03.350+01:00[Europe/Berlin]",
+              "content": "Multi-tiered solution-oriented customer loyalty",
+              "size": 47
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "quae_deserunt.xls",
+              "isFolder": false,
+              "user": "os",
+              "created": "2022-01-14T15:14:30.683+01:00[Europe/Berlin]",
+              "content": "Realigned grid-enabled hub",
+              "size": 26
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "quasi_et.doc",
+              "isFolder": false,
+              "user": "os",
+              "created": "2022-02-08T16:02:57.344+01:00[Europe/Berlin]",
+              "content": "Cloned fault-tolerant encryption",
+              "size": 32
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "sit_illo.bmp",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-10-29T07:24:54.086+02:00[Europe/Berlin]",
+              "content": "Future-proofed bottom-line infrastructure",
+              "size": 41
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "et_in.css",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-05-01T14:22:50.765+02:00[Europe/Berlin]",
+              "content": "Streamlined systematic circuit",
+              "size": 30
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "doloribus_molestias.pages",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-06-11T05:54:59.278+02:00[Europe/Berlin]",
+              "content": "Enhanced discrete installation",
+              "size": 30
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "impedit_ipsum.mp3",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-05-20T06:37:15.909+02:00[Europe/Berlin]",
+              "content": "Automated context-sensitive internet solution",
+              "size": 45
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "quae_et.txt",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-06-05T14:13:39.253+02:00[Europe/Berlin]",
+              "content": "Reduced 24 hour focus group",
+              "size": 27
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "facilis_excepturi.pptx",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-07-21T03:01:53.871+02:00[Europe/Berlin]",
+              "content": "Ergonomic needs-based Graphical User Interface",
+              "size": 46
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "laudantium_aut.wav",
+              "isFolder": false,
+              "user": "os",
+              "created": "2022-02-10T07:28:53.090+01:00[Europe/Berlin]",
+              "content": "Self-enabling optimizing throughput",
+              "size": 35
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "optio_animi.xls",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-04-08T05:19:40.303+02:00[Europe/Berlin]",
+              "content": "Secured heuristic Graphic Interface",
+              "size": 35
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "aut_laboriosam.jpeg",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-04-09T08:54:22.170+02:00[Europe/Berlin]",
+              "content": "Enterprise-wide dedicated software",
+              "size": 34
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "est_impedit.jpg",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-05-24T14:47:15.016+02:00[Europe/Berlin]",
+              "content": "Vision-oriented bandwidth-monitored open architecture",
+              "size": 53
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "eius_iusto.csv",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-08-22T01:47:23.814+02:00[Europe/Berlin]",
+              "content": "Stand-alone zero administration utilisation",
+              "size": 43
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "aut_quam.flac",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-05-29T22:00:53.897+02:00[Europe/Berlin]",
+              "content": "Proactive leading edge implementation",
+              "size": 37
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "autem_dolores.pdf",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-08-25T01:12:19.218+02:00[Europe/Berlin]",
+              "content": "Down-sized secondary info-mediaries",
+              "size": 35
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "optio_suscipit.pptx",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-10-19T00:11:20.451+02:00[Europe/Berlin]",
+              "content": "Cross-platform systemic database",
+              "size": 32
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "accusantium_voluptate.xls",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-04-21T07:47:45.942+02:00[Europe/Berlin]",
+              "content": "Triple-buffered client-server implementation",
+              "size": 44
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "et_distinctio.gif",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-04-01T12:23:13.151+02:00[Europe/Berlin]",
+              "content": "Grass-roots client-driven standardization",
+              "size": 41
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "consequatur_rerum.gif",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-04-23T08:34:22.571+02:00[Europe/Berlin]",
+              "content": "Virtual exuding interface",
+              "size": 25
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "voluptatem_quas.wav",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-09-02T15:34:03.223+02:00[Europe/Berlin]",
+              "content": "Self-enabling systematic knowledge base",
+              "size": 39
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "aut_qui.txt",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-04-11T08:30:04.739+02:00[Europe/Berlin]",
+              "content": "Enhanced asymmetric extranet",
+              "size": 28
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "quo_quo.numbers",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-12-30T06:48:49.211+01:00[Europe/Berlin]",
+              "content": "Cross-platform zero tolerance solution",
+              "size": 38
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "aut_nihil.tiff",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-11-19T17:15:16.594+01:00[Europe/Berlin]",
+              "content": "User-centric bandwidth-monitored model",
+              "size": 38
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "dolorum_asperiores.html",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-03-25T17:37:17.833+01:00[Europe/Berlin]",
+              "content": "Seamless next generation system engine",
+              "size": 38
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "id_assumenda.pages",
+              "isFolder": false,
+              "user": "os",
+              "created": "2022-02-22T11:19:22.688+01:00[Europe/Berlin]",
+              "content": "Re-engineered modular open system",
+              "size": 33
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "cumque_et.wav",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-08-08T10:57:39.224+02:00[Europe/Berlin]",
+              "content": "Multi-tiered logistical middleware",
+              "size": 34
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "ex_omnis.html",
+              "isFolder": false,
+              "user": "os",
+              "created": "2022-01-16T12:29:35.651+01:00[Europe/Berlin]",
+              "content": "Virtual national capacity",
+              "size": 25
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "unde_eum.pages",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-12-07T20:09:34.147+01:00[Europe/Berlin]",
+              "content": "Future-proofed tertiary array",
+              "size": 29
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "et_dolorem.tiff",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-04-16T10:00:53.367+02:00[Europe/Berlin]",
+              "content": "Monitored holistic superstructure",
+              "size": 33
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "aut_tempore.jpg",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-08-13T14:08:35.657+02:00[Europe/Berlin]",
+              "content": "Balanced intermediate emulation",
+              "size": 31
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "aliquam_dolorum.webm",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-11-26T21:47:00.562+01:00[Europe/Berlin]",
+              "content": "Monitored responsive attitude",
+              "size": 29
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "quasi_est.html",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-07-11T17:48:51.938+02:00[Europe/Berlin]",
+              "content": "Implemented incremental emulation",
+              "size": 33
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "est_sunt.pdf",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-10-11T14:11:39.475+02:00[Europe/Berlin]",
+              "content": "Persevering exuding adapter",
+              "size": 27
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "in_quisquam.webm",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-11-25T10:49:50.359+01:00[Europe/Berlin]",
+              "content": "Expanded encompassing alliance",
+              "size": 30
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "aut_quia.html",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-05-30T20:14:23.019+02:00[Europe/Berlin]",
+              "content": "Balanced clear-thinking structure",
+              "size": 33
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "possimus_quo.ods",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-07-24T03:39:09.020+02:00[Europe/Berlin]",
+              "content": "Innovative encompassing knowledge base",
+              "size": 38
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "qui_repudiandae.html",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-11-02T08:36:26.791+01:00[Europe/Berlin]",
+              "content": "Multi-layered bottom-line attitude",
+              "size": 34
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "nostrum_eius.tiff",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-12-05T22:59:29.640+01:00[Europe/Berlin]",
+              "content": "Intuitive even-keeled orchestration",
+              "size": 35
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "dolorem_consectetur.json",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-09-11T21:20:47.409+02:00[Europe/Berlin]",
+              "content": "Grass-roots user-facing info-mediaries",
+              "size": 38
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "sed_minus.css",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-11-19T13:12:51.830+01:00[Europe/Berlin]",
+              "content": "Organized analyzing process improvement",
+              "size": 39
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "sint_illum.html",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-08-01T05:29:26.217+02:00[Europe/Berlin]",
+              "content": "Grass-roots even-keeled process improvement",
+              "size": 43
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "optio_corrupti.xls",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-05-27T00:01:48.860+02:00[Europe/Berlin]",
+              "content": "Customizable multimedia internet solution",
+              "size": 41
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "vel_repellendus.ods",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-06-22T21:48:06.360+02:00[Europe/Berlin]",
+              "content": "Mandatory non-volatile archive",
+              "size": 30
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "sapiente_eaque.wav",
+              "isFolder": false,
+              "user": "os",
+              "created": "2022-02-22T15:22:47.613+01:00[Europe/Berlin]",
+              "content": "Open-architected radical hub",
+              "size": 28
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "suscipit_et.ods",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-10-28T15:31:41.472+02:00[Europe/Berlin]",
+              "content": "User-friendly maximized hierarchy",
+              "size": 33
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "ut_non.js",
+              "isFolder": false,
+              "user": "os",
+              "created": "2022-02-02T15:40:45.688+01:00[Europe/Berlin]",
+              "content": "Monitored attitude-oriented parallelism",
+              "size": 39
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "iure_quo.jpeg",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-07-06T22:23:21.867+02:00[Europe/Berlin]",
+              "content": "Versatile 24/7 architecture",
+              "size": 27
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "et_minima.odt",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-11-27T08:12:15.841+01:00[Europe/Berlin]",
+              "content": "Programmable interactive synergy",
+              "size": 32
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "est_quas.numbers",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-11-16T13:08:29.047+01:00[Europe/Berlin]",
+              "content": "Persevering discrete portal",
+              "size": 27
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "provident_optio.ppt",
+              "isFolder": false,
+              "user": "os",
+              "created": "2022-01-11T05:41:43.282+01:00[Europe/Berlin]",
+              "content": "User-centric executive implementation",
+              "size": 37
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "est_non.ppt",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-10-03T01:52:34.456+02:00[Europe/Berlin]",
+              "content": "Seamless heuristic access",
+              "size": 25
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "in_earum.pdf",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-12-12T17:49:53.355+01:00[Europe/Berlin]",
+              "content": "Ergonomic content-based time-frame",
+              "size": 34
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "excepturi_voluptatum.pdf",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-10-28T05:00:01.944+02:00[Europe/Berlin]",
+              "content": "Face to face non-volatile archive",
+              "size": 33
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "voluptas_possimus.json",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-06-22T22:38:55.400+02:00[Europe/Berlin]",
+              "content": "Balanced demand-driven structure",
+              "size": 32
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "a_deserunt.odt",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-09-16T06:42:32.601+02:00[Europe/Berlin]",
+              "content": "Multi-channelled 3rd generation info-mediaries",
+              "size": 46
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "nemo_dolore.txt",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-08-28T02:22:33.865+02:00[Europe/Berlin]",
+              "content": "Exclusive intangible service-desk",
+              "size": 33
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "tenetur_sunt.webm",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-06-15T03:52:01.491+02:00[Europe/Berlin]",
+              "content": "Profound regional frame",
+              "size": 23
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "autem_quod.pdf",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-04-10T05:51:50.225+02:00[Europe/Berlin]",
+              "content": "Re-contextualized heuristic process improvement",
+              "size": 47
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "aut_omnis.ods",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-11-10T11:34:04.046+01:00[Europe/Berlin]",
+              "content": "Customizable tangible local area network",
+              "size": 40
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "voluptas_voluptatem.html",
+              "isFolder": false,
+              "user": "os",
+              "created": "2022-01-05T20:44:51.133+01:00[Europe/Berlin]",
+              "content": "Streamlined upward-trending attitude",
+              "size": 36
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "qui_nesciunt.odp",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-07-12T23:28:30.738+02:00[Europe/Berlin]",
+              "content": "Future-proofed foreground conglomeration",
+              "size": 40
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "harum_ea.gif",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-05-08T00:33:01.892+02:00[Europe/Berlin]",
+              "content": "Universal exuding knowledge user",
+              "size": 32
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "voluptatum_sunt.pdf",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-08-31T09:15:27.712+02:00[Europe/Berlin]",
+              "content": "Re-contextualized bi-directional alliance",
+              "size": 41
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "voluptatibus_tempore.pptx",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-10-20T23:39:07.600+02:00[Europe/Berlin]",
+              "content": "Open-source regional throughput",
+              "size": 31
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "vitae_aut.css",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-11-05T20:06:51.503+01:00[Europe/Berlin]",
+              "content": "Seamless needs-based implementation",
+              "size": 35
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "suscipit_eos.png",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-08-07T17:49:31.858+02:00[Europe/Berlin]",
+              "content": "Persistent user-facing complexity",
+              "size": 33
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "vitae_eum.csv",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-09-14T08:27:25.380+02:00[Europe/Berlin]",
+              "content": "Proactive bottom-line function",
+              "size": 30
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "culpa_amet.gif",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-11-25T00:30:32.942+01:00[Europe/Berlin]",
+              "content": "Centralized bifurcated complexity",
+              "size": 33
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "veniam_dolorem.docx",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-05-30T19:58:15.039+02:00[Europe/Berlin]",
+              "content": "Optimized encompassing conglomeration",
+              "size": 37
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "illum_cum.txt",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-08-08T04:57:06.168+02:00[Europe/Berlin]",
+              "content": "Ameliorated 4th generation secured line",
+              "size": 39
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "et_et.json",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-07-15T18:21:33.857+02:00[Europe/Berlin]",
+              "content": "Secured didactic info-mediaries",
+              "size": 31
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "ab_nostrum.tiff",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-10-23T15:45:28.220+02:00[Europe/Berlin]",
+              "content": "Focused real-time matrices",
+              "size": 26
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "modi_adipisci.gif",
+              "isFolder": false,
+              "user": "os",
+              "created": "2022-01-30T19:11:45.226+01:00[Europe/Berlin]",
+              "content": "Self-enabling methodical moratorium",
+              "size": 35
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "voluptatum_maxime.flac",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-10-01T00:27:59.775+02:00[Europe/Berlin]",
+              "content": "Programmable stable capacity",
+              "size": 28
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "eos_fuga.ods",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-07-30T16:20:15.356+02:00[Europe/Berlin]",
+              "content": "Operative discrete hierarchy",
+              "size": 28
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "ea_voluptatem.gif",
+              "isFolder": false,
+              "user": "os",
+              "created": "2022-02-23T03:32:39.894+01:00[Europe/Berlin]",
+              "content": "Intuitive asymmetric circuit",
+              "size": 28
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "et_laborum.csv",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-08-09T05:14:37.043+02:00[Europe/Berlin]",
+              "content": "Reduced mission-critical architecture",
+              "size": 37
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "aspernatur_rerum.tiff",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-09-25T20:09:16.991+02:00[Europe/Berlin]",
+              "content": "Distributed 3rd generation function",
+              "size": 35
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "molestiae_et.mp4",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-07-19T08:39:49.350+02:00[Europe/Berlin]",
+              "content": "Team-oriented 4th generation standardization",
+              "size": 44
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "nisi_sed.gif",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-09-07T23:47:51.756+02:00[Europe/Berlin]",
+              "content": "Optimized responsive encoding",
+              "size": 29
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "ut_non.docx",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-06-26T14:29:35.106+02:00[Europe/Berlin]",
+              "content": "Grass-roots real-time leverage",
+              "size": 30
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "consequatur_sit.odt",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-12-07T10:21:14.930+01:00[Europe/Berlin]",
+              "content": "Enterprise-wide directional migration",
+              "size": 37
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "id_ducimus.avi",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-08-09T06:51:14.017+02:00[Europe/Berlin]",
+              "content": "Monitored non-volatile application",
+              "size": 34
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "quod_tenetur.tiff",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-11-17T07:39:42.040+01:00[Europe/Berlin]",
+              "content": "Optimized systematic superstructure",
+              "size": 35
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "qui_magni.pages",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-09-06T23:43:17.645+02:00[Europe/Berlin]",
+              "content": "Monitored bifurcated toolset",
+              "size": 28
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "beatae_nemo.tiff",
+              "isFolder": false,
+              "user": "os",
+              "created": "2022-02-26T21:34:06.273+01:00[Europe/Berlin]",
+              "content": "Ergonomic client-driven capacity",
+              "size": 32
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "sed_id.odt",
+              "isFolder": false,
+              "user": "os",
+              "created": "2022-02-08T05:26:39.362+01:00[Europe/Berlin]",
+              "content": "Pre-emptive actuating groupware",
+              "size": 31
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "nesciunt_velit.pptx",
+              "isFolder": false,
+              "user": "os",
+              "created": "2022-01-01T14:10:43.536+01:00[Europe/Berlin]",
+              "content": "Customer-focused interactive matrices",
+              "size": 37
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "distinctio_atque.txt",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-11-27T18:35:00.952+01:00[Europe/Berlin]",
+              "content": "Proactive hybrid matrices",
+              "size": 25
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "quo_aut.mp4",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-06-08T09:23:36.381+02:00[Europe/Berlin]",
+              "content": "Networked didactic functionalities",
+              "size": 34
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "sit_id.docx",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-06-17T13:33:06.068+02:00[Europe/Berlin]",
+              "content": "Virtual contextually-based solution",
+              "size": 35
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "voluptatem_natus.ppt",
+              "isFolder": false,
+              "user": "os",
+              "created": "2022-03-02T01:19:41.198+01:00[Europe/Berlin]",
+              "content": "Reduced uniform workforce",
+              "size": 25
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "officiis_non.js",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-05-20T17:16:03.133+02:00[Europe/Berlin]",
+              "content": "Persistent radical infrastructure",
+              "size": 33
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "est_corrupti.bmp",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-05-08T14:58:46.432+02:00[Europe/Berlin]",
+              "content": "Fully-configurable empowering framework",
+              "size": 39
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "et_nesciunt.mov",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-09-04T04:05:57.372+02:00[Europe/Berlin]",
+              "content": "Fundamental full-range service-desk",
+              "size": 35
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "suscipit_in.pages",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-07-10T15:05:03.267+02:00[Europe/Berlin]",
+              "content": "Profound zero tolerance circuit",
+              "size": 31
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "iste_non.png",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-11-04T20:42:46.809+01:00[Europe/Berlin]",
+              "content": "Down-sized asymmetric core",
+              "size": 26
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "magnam_qui.html",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-03-26T11:16:24.571+01:00[Europe/Berlin]",
+              "content": "Implemented multi-tasking application",
+              "size": 37
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "vel_fugiat.gif",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-09-13T15:19:02.004+02:00[Europe/Berlin]",
+              "content": "Customizable exuding matrices",
+              "size": 29
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "nisi_alias.pptx",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-06-09T03:41:17.525+02:00[Europe/Berlin]",
+              "content": "Configurable national architecture",
+              "size": 34
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "magnam_quo.doc",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-09-09T19:43:47.117+02:00[Europe/Berlin]",
+              "content": "Object-based optimizing infrastructure",
+              "size": 38
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "vel_omnis.odt",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-11-19T00:18:31.014+01:00[Europe/Berlin]",
+              "content": "Reverse-engineered multi-state focus group",
+              "size": 42
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "et_omnis.pptx",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-03-26T18:17:56.474+01:00[Europe/Berlin]",
+              "content": "Advanced cohesive local area network",
+              "size": 36
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "illum_quia.ppt",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-05-01T23:53:44.240+02:00[Europe/Berlin]",
+              "content": "Future-proofed executive concept",
+              "size": 32
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "velit_eveniet.pptx",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-10-25T23:01:32.327+02:00[Europe/Berlin]",
+              "content": "Vision-oriented human-resource superstructure",
+              "size": 45
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "omnis_alias.pages",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-11-14T21:10:56.568+01:00[Europe/Berlin]",
+              "content": "Operative optimizing groupware",
+              "size": 30
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "dolorum_porro.docx",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-08-02T11:25:03.904+02:00[Europe/Berlin]",
+              "content": "Upgradable 24/7 leverage",
+              "size": 24
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "excepturi_sit.txt",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-12-10T02:35:53.848+01:00[Europe/Berlin]",
+              "content": "Face to face exuding service-desk",
+              "size": 33
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "consequatur_consectetur.xlsx",
+              "isFolder": false,
+              "user": "os",
+              "created": "2022-03-05T00:38:47.226+01:00[Europe/Berlin]",
+              "content": "Streamlined homogeneous forecast",
+              "size": 32
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "corporis_voluptatum.mp4",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-12-28T12:00:34.739+01:00[Europe/Berlin]",
+              "content": "Public-key impactful application",
+              "size": 32
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "laboriosam_corrupti.xlsx",
+              "isFolder": false,
+              "user": "os",
+              "created": "2022-01-28T20:29:49.339+01:00[Europe/Berlin]",
+              "content": "Innovative executive array",
+              "size": 26
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "fuga_quam.mp4",
+              "isFolder": false,
+              "user": "os",
+              "created": "2022-03-08T03:36:31.897+01:00[Europe/Berlin]",
+              "content": "Diverse multimedia encoding",
+              "size": 27
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "qui_libero.csv",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-07-29T18:19:36.101+02:00[Europe/Berlin]",
+              "content": "Streamlined optimizing leverage",
+              "size": 31
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "consequatur_cupiditate.png",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-05-06T21:39:33.020+02:00[Europe/Berlin]",
+              "content": "Object-based even-keeled protocol",
+              "size": 33
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "est_nihil.doc",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-04-13T22:48:47.368+02:00[Europe/Berlin]",
+              "content": "Implemented optimal analyzer",
+              "size": 28
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "velit_est.odt",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-12-13T07:31:02.360+01:00[Europe/Berlin]",
+              "content": "Multi-layered user-facing strategy",
+              "size": 34
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "velit_quas.png",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-10-01T14:47:04.348+02:00[Europe/Berlin]",
+              "content": "Front-line responsive task-force",
+              "size": 32
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "sed_accusantium.gif",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-12-10T05:22:16.192+01:00[Europe/Berlin]",
+              "content": "Reduced impactful contingency",
+              "size": 29
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "nostrum_alias.pages",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-04-02T15:37:28.570+02:00[Europe/Berlin]",
+              "content": "Balanced hybrid secured line",
+              "size": 28
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "eum_et.key",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-05-04T21:11:53.063+02:00[Europe/Berlin]",
+              "content": "Realigned zero tolerance interface",
+              "size": 34
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "enim_aperiam.js",
+              "isFolder": false,
+              "user": "os",
+              "created": "2022-01-12T01:50:14.878+01:00[Europe/Berlin]",
+              "content": "Reverse-engineered reciprocal budgetary management",
+              "size": 50
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "nihil_dolores.docx",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-12-27T05:50:00.525+01:00[Europe/Berlin]",
+              "content": "Upgradable multi-state hardware",
+              "size": 31
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "ullam_voluptatum.pages",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-10-10T21:27:41.413+02:00[Europe/Berlin]",
+              "content": "Reduced zero administration architecture",
+              "size": 40
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "veritatis_blanditiis.pdf",
+              "isFolder": false,
+              "user": "os",
+              "created": "2022-02-10T04:44:20.834+01:00[Europe/Berlin]",
+              "content": "Enterprise-wide dedicated superstructure",
+              "size": 40
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "reiciendis_eius.mp4",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-06-24T20:20:41.064+02:00[Europe/Berlin]",
+              "content": "Multi-channelled global open architecture",
+              "size": 41
+            }
+          },
+          {
+            "fileProperties": {
+              "name": "quis_minima.flac",
+              "isFolder": false,
+              "user": "os",
+              "created": "2021-10-03T01:43:09.459+02:00[Europe/Berlin]",
+              "content": "Focused user-facing neural-net",
+              "size": 30
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "currentNodePath": "H:/system/"
+}

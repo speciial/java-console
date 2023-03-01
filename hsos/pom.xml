@@ -18,6 +18,30 @@
             <version>1.0</version>
             <scope>compile</scope>
         </dependency>
+        <dependency>
+            <groupId>hsos</groupId>
+            <artifactId>files</artifactId>
+            <version>1.0</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>hsos</groupId>
+            <artifactId>network</artifactId>
+            <version>1.0</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>hsos</groupId>
+            <artifactId>settings</artifactId>
+            <version>1.0</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>hsos</groupId>
+            <artifactId>user</artifactId>
+            <version>1.0</version>
+            <scope>compile</scope>
+        </dependency>
 
         <!-- EXTERNAL DEPENDENCIES -->
         <dependency>

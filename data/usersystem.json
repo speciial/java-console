@@ -1,0 +1,20 @@
+{
+  "users": [
+    {
+      "name": "jonas",
+      "hashedPassword": "ecd71870d1963316a97e3ac3408c9835ad8cf0f3c1bc703527c30265534f75ae"
+    },
+    {
+      "name": "christian",
+      "hashedPassword": "4813494d137e1631bba301d5acab6e7bb7aa74ce1185d456565ef51d737677b2"
+    },
+    {
+      "name": "root",
+      "hashedPassword": "4813494d137e1631bba301d5acab6e7bb7aa74ce1185d456565ef51d737677b2"
+    },
+    {
+      "name": "admin",
+      "hashedPassword": "4813494d137e1631bba301d5acab6e7bb7aa74ce1185d456565ef51d737677b2"
+    }
+  ]
+}

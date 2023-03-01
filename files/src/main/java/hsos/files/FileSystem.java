@@ -2,6 +2,7 @@ package hsos.files;
 
 import com.google.gson.*;
 
+import java.io.FileWriter;
 import java.io.IOException;
 import java.io.Reader;
 import java.nio.charset.StandardCharsets;
@@ -162,7 +163,7 @@ public class FileSystem {
      * @param fileName Name der Datei.
      * @return Inhalt der Datei.
      */
-    public String showFileContent(String fileName) {
+    public String getFileContent(String fileName) {
         String result = null;
 
         FileNode file = findFileOrDirectory(fileName);
@@ -232,7 +233,35 @@ public class FileSystem {
      * @throws IOException falls der angegebene Dateipfad nicht gefunden werden konnte.
      */
     public static FileSystem loadFromFile(String filePath) throws IOException {
-        Gson gson = new GsonBuilder()
+        Gson gson = getGson();
+        Reader reader = Files.newBufferedReader(Path.of(filePath), StandardCharsets.UTF_8);
+        FileSystem fileSystem = gson.fromJson(reader, FileSystem.class);
+        fileSystem.fixParent();
+        fileSystem.fixCurrentNode();
+
+        return fileSystem;
+    }
+
+    /**
+     * Utility-Funktion zum Schreiben eines Dateisystems in eine JSON-Datei.
+     *
+     * @param filePath   Pfad der Datei.
+     * @param fileSystem Zu speicherndes Dateisystem
+     * @throws IOException falls der angegebene Dateipfad nicht gefunden werden konnte.
+     */
+    public static void saveToFile(String filePath, FileSystem fileSystem) throws IOException {
+        Gson gson = getGson();
+        FileWriter writer = new FileWriter(filePath, false);
+        gson.toJson(fileSystem, writer);
+    }
+
+    /**
+     * Utility-Funktion zum Erstellen eines Gson-Objektes.
+     *
+     * @return Gson Objekt.
+     */
+    private static Gson getGson() {
+        return new GsonBuilder()
                 .registerTypeAdapter(LocalDateTime.class, (JsonDeserializer<LocalDateTime>)
                         (jsonElement, type, jsonDeserializationContext) ->
                                 ZonedDateTime.parse(jsonElement.getAsString()).toLocalDateTime())
@@ -242,13 +271,6 @@ public class FileSystem {
                 .enableComplexMapKeySerialization()
                 .setPrettyPrinting()
                 .create();
-
-        Reader reader = Files.newBufferedReader(Path.of(filePath), StandardCharsets.UTF_8);
-        FileSystem fileSystem = gson.fromJson(reader, FileSystem.class);
-        fileSystem.fixParent();
-        fileSystem.fixCurrentNode();
-
-        return fileSystem;
     }
 
     /**

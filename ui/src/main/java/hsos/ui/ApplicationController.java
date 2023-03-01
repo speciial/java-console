@@ -5,7 +5,7 @@ import hsos.ui.components.TerminalComponent;
 import hsos.ui.components.WindowComponent;
 import javafx.application.Platform;
 
-public class ApplicationSettings {
+public class ApplicationController {
 
     /*
         Settings List:
@@ -19,7 +19,7 @@ public class ApplicationSettings {
             [x] Get the content of the file
      */
 
-    private static ApplicationSettings instance = null;
+    private static ApplicationController instance = null;
 
     private WindowComponent windowComponent;
     private TerminalComponent terminalComponent;
@@ -27,7 +27,7 @@ public class ApplicationSettings {
 
     private ApplicationMode activeMode;
 
-    private ApplicationSettings() {
+    private ApplicationController() {
         activeMode = ApplicationMode.TERMINAL;
     }
 
@@ -54,6 +54,18 @@ public class ApplicationSettings {
         return activeMode;
     }
 
+    public String getTerminalActiveLine() {
+        return null;
+    }
+
+    public void setTerminalActiveLine(String activeLine) {
+
+    }
+
+    public int getTerminalCaretLineIndex() {
+        return 0;
+    }
+
     public void setEditorFilename(String filename) {
         editorComponent.setFilename(filename);
     }
@@ -68,9 +80,13 @@ public class ApplicationSettings {
         this.editorComponent = windowComponent.getEditorComponent();
     }
 
-    public static ApplicationSettings getInstance() {
+    public void closeApplication() {
+        // TODO(christian): shut down the application and thread!
+    }
+
+    public static ApplicationController getInstance() {
         if (instance == null) {
-            instance = new ApplicationSettings();
+            instance = new ApplicationController();
         }
         return instance;
     }

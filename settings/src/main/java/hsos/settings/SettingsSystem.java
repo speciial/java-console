@@ -104,4 +104,14 @@ public class SettingsSystem {
         return null;
     }
 
+    /**
+     * TODO(christian): Implement this.
+     *
+     * @param filePath
+     * @return
+     */
+    public static SettingsSystem loadFromFile(String filePath) {
+        return null;
+    }
+
 }

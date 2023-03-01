@@ -10,6 +10,11 @@ public class TerminalOutputStream extends ApplicationOutputStream {
     }
 
     @Override
+    public void println() {
+        outputDevice.appendToTextBuffer("\n");
+    }
+
+    @Override
     public void println(String line) {
         outputDevice.appendToTextBuffer(line + "\n");
     }

@@ -1,8 +1,20 @@
 package hsos.user;
 
+import com.google.gson.*;
+import com.google.gson.stream.JsonReader;
+import com.google.gson.stream.JsonWriter;
+
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.Reader;
 import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
+import java.nio.file.Path;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
+import java.time.LocalDateTime;
+import java.time.ZoneId;
+import java.time.ZonedDateTime;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -113,6 +125,54 @@ public class UserSystem {
     }
 
     /**
+     * Utility-Funktion zum Laden eines Benutzer-Systems aus einer JSON-Datei.
+     *
+     * @param filePath Pfad der Datei.
+     * @return Dateisystem mit geladenen Inhalten.
+     * @throws IOException falls der angegebene Dateipfad nicht gefunden werden konnte.
+     */
+    public static UserSystem loadFromFile(String filePath) throws IOException {
+        Gson gson = getGson();
+        Reader reader = Files.newBufferedReader(Path.of(filePath), StandardCharsets.UTF_8);
+        UserSystem userSystem = gson.fromJson(reader, UserSystem.class);
+        userSystem.switchUser("root", "root");
+
+        return userSystem;
+    }
+
+    /**
+     * Utility-Funktion zum Schreiben eines Benutzer-Systems in eine JSON-Datei.
+     *
+     * @param filePath   Pfad der Datei.
+     * @param userSystem Zu speicherndes Benutzer-System
+     * @throws IOException falls der angegebene Dateipfad nicht gefunden werden konnte.
+     */
+    public static void saveToFile(String filePath, UserSystem userSystem) throws IOException {
+        Gson gson = getGson();
+        FileWriter writer = new FileWriter(filePath, false);
+        gson.toJson(userSystem, writer);
+    }
+
+    /**
+     * Utility-Funktion zum Erstellen eines Gson-Objektes.
+     *
+     * @return Gson Objekt.
+     */
+    private static Gson getGson() {
+        return new GsonBuilder()
+                .registerTypeAdapter(LocalDateTime.class, (JsonDeserializer<LocalDateTime>)
+                        (jsonElement, type, jsonDeserializationContext) ->
+                                ZonedDateTime.parse(jsonElement.getAsString()).toLocalDateTime())
+                .registerTypeAdapter(LocalDateTime.class, (JsonSerializer<LocalDateTime>)
+                        (localDateTime, type, jsonSerializationContext) ->
+                                new JsonPrimitive(ZonedDateTime.of(localDateTime, ZoneId.systemDefault()).toString()))
+                .enableComplexMapKeySerialization()
+                .registerTypeAdapter(UserSystem.class, new UserSystemAdapter())
+                .setPrettyPrinting()
+                .create();
+    }
+
+    /**
      * Führt eine SHA-256 Encryption auf dem übergebenen String durch und gibt eine Hex-String des gehashten Strings
      * wieder. Falls der übergebene String nicht gehasht werden kann, wird null zurückgegeben.
      *
@@ -140,6 +200,52 @@ public class UserSystem {
             e.printStackTrace();
         }
         return null;
+    }
+
+    /**
+     * Utility-Klasse zum Serialisieren der Benutzerverwaltung.
+     */
+    private static class UserSystemAdapter extends TypeAdapter<UserSystem> {
+
+        @Override
+        public void write(JsonWriter jsonWriter, UserSystem userSystem) throws IOException {
+            jsonWriter.beginObject();
+            jsonWriter.name("users");
+            jsonWriter.beginArray();
+            for (OSUser user : userSystem.getOsUsers()) {
+                jsonWriter.beginObject();
+                jsonWriter.name("name");
+                jsonWriter.value(user.getName());
+                jsonWriter.name("hashedPassword");
+                jsonWriter.value(user.getHashedPassword());
+                jsonWriter.endObject();
+            }
+            jsonWriter.endArray();
+            jsonWriter.endObject();
+        }
+
+        @Override
+        public UserSystem read(JsonReader jsonReader) throws IOException {
+            UserSystem system = new UserSystem();
+            jsonReader.beginObject();
+            jsonReader.nextName();
+            jsonReader.beginArray();
+
+            while (jsonReader.hasNext()) {
+                jsonReader.beginObject();
+                jsonReader.nextName();
+                String name = jsonReader.nextString();
+                jsonReader.nextName();
+                String password = jsonReader.nextString();
+                jsonReader.endObject();
+
+                system.addOSUser(name, password);
+            }
+            jsonReader.endArray();
+            jsonReader.endObject();
+
+            return system;
+        }
     }
 
 }

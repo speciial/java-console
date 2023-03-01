@@ -34,7 +34,8 @@ public class TerminalComponent extends TextArea {
         getContent().insert(currentContentLength, content, true);
 
         lastValidWritePos = getContent().length();
-        selectRange(lastValidWritePos, lastValidWritePos);
+        //selectRange(lastValidWritePos, lastValidWritePos);
+        positionCaret(lastValidWritePos);
     }
 
     private void setUpFx(double width, double height, Font font) {

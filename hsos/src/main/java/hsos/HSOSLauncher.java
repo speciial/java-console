@@ -5,9 +5,11 @@ import hsos.io.TerminalOutputStream;
 import hsos.ui.ApplicationEventQueue;
 import hsos.ui.ApplicationWindow;
 
+import java.io.IOException;
+
 public class HSOSLauncher {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         // ==============================================================
         // ==================== Initialize Libraries ====================
         // ==============================================================
@@ -18,17 +20,14 @@ public class HSOSLauncher {
         TerminalOutputStream outputStream = new TerminalOutputStream();
         ApplicationWindow.configureApplicationWindow(eventQueue, inputStream, outputStream);
 
-        // TODO(christian): File System
-        // TODO(christian): Settings System
-        // TODO(christian): Network System
-
         // ==============================================================
         // ====================    Initialize OS     ====================
         // ==============================================================
         HSOS os = new HSOS();
-        os.eventQueue = eventQueue;
-        os.out = outputStream;
-        os.in = inputStream;
+        HSOS.out = outputStream;
+        HSOS.in = inputStream;
+        HSOS.setEventQueue(eventQueue);
+        HSOS.boot();
 
         // ==============================================================
         // ====================      Launch OS       ====================

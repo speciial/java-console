@@ -31,7 +31,7 @@ public class ApplicationWindow extends Application implements Runnable {
     @Override
     public void start(Stage stage) {
         WindowComponent windowComponent = new WindowComponent(stage, eventQueue, inputStream);
-        ApplicationSettings.getInstance().setComponents(windowComponent);
+        ApplicationController.getInstance().setComponents(windowComponent);
 
         outputStream.setOutputComponent(windowComponent.getTerminalComponent());
         eventQueue.add(ApplicationEvent.UI_STARTUP);
